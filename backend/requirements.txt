@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+langchain
+langgraph
+langchain-groq
+langchain-community
+langchain-chroma
+chromadb
+tavily-python
+pypdf
+python-multipart
+python-dotenv
+tiktoken
+nomic
+rank_bm25
+numpy<2
+langchain-nomic

@@ -1,0 +1,37 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+backend/venv
+backend/__pycache__
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js
+frontend/.next
+frontend/out
+frontend/build
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Vector DB
+backend/chroma_db/
+backend/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
