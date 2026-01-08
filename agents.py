@@ -6,7 +6,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 
 class AgentManager:
-    def __init__(self, groq_api_key: str, model_name: str = "llama3-70b-8192"):
+    def __init__(self, groq_api_key: str, model_name: str = "llama-3.1-8b-instant"):
         self.llm = ChatGroq(
             temperature=0, 
             groq_api_key=groq_api_key, 
