@@ -4,9 +4,27 @@ from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_chroma import Chroma
 from langchain_nomic.embeddings import NomicEmbeddings
 from langchain_community.retrievers import BM25Retriever
-from langchain.retrievers import EnsembleRetriever
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
+
+class HybridRetriever:
+    """Wrapper class for hybrid retrieval combining BM25 and vector search."""
+    def __init__(self, vector_retriever, bm25_retriever):
+        self.vector_retriever = vector_retriever
+        self.bm25_retriever = bm25_retriever
+    
+    def invoke(self, query: str):
+        """Retrieve documents using both retrievers and combine results."""
+        vector_results = self.vector_retriever.invoke(query)
+        bm25_results = self.bm25_retriever.invoke(query)
+        
+        # Combine results (simple union, avoiding duplicates by content)
+        combined_results = {doc.page_content: doc for doc in vector_results + bm25_results}
+        return list(combined_results.values())
+    
+    def get_relevant_documents(self, query: str):
+        """Alias for invoke to match retriever interface."""
+        return self.invoke(query)
 
 class RAGSystem:
     def __init__(self, persist_directory="./chroma_db", embedding_model="nomic-embed-text-v1.5"):
@@ -31,8 +49,8 @@ class RAGSystem:
         # Vector Store Ingestion
         try:
             Chroma.from_documents(
-                documents=splits, 
-                embedding=self.embeddings, 
+                documents=splits,
+                embedding=self.embeddings,
                 collection_name=collection_name,
                 persist_directory=self.persist_directory
             )
@@ -45,31 +63,23 @@ class RAGSystem:
         """Returns a hybrid retriever (Vector + BM25)."""
         # 1. Vector Retriever
         vectorstore = Chroma(
-            collection_name=collection_name, 
-            embedding=self.embeddings, 
+            collection_name=collection_name,
+            embedding_function=self.embeddings,
             persist_directory=self.persist_directory
         )
         vector_retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
         
         # 2. BM25 Retriever
-        # Fetch all docs from vectorstore to build BM25 index (Simple approach for MVP)
-        # In a real large app, we'd maintain a separate index or cache.
         docs = vectorstore.get()['documents'] 
         meta = vectorstore.get()['metadatas']
-        # Reconstruct documents for BM25
         bm25_docs = [Document(page_content=d, metadata=m) for d, m in zip(docs, meta)]
         
         if not bm25_docs:
-             # Fallback if empty
+            # Fallback if empty
             return vector_retriever
 
         bm25_retriever = BM25Retriever.from_documents(bm25_docs)
         bm25_retriever.k = 5
         
-        # 3. Ensemble
-        ensemble_retriever = EnsembleRetriever(
-            retrievers=[bm25_retriever, vector_retriever],
-            weights=[0.5, 0.5]
-        )
-        
-        return ensemble_retriever
+        # 3. Return Hybrid Retriever
+        return HybridRetriever(vector_retriever, bm25_retriever)

@@ -13,6 +13,9 @@
 # testing
 /coverage
 
+#sample input files
+/sample_policies/*
+
 # next.js
 /.next/
 /out/

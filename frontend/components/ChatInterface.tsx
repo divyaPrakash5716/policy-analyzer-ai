@@ -2,6 +2,8 @@
 
 import { useState, useRef, useEffect } from "react";
 import { chatWithAgent } from "@/lib/api";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 type Message = {
     role: "user" | "assistant";
@@ -65,7 +67,24 @@ export default function ChatInterface({ uploadStatus }: { uploadStatus: any }) {
                             ? "bg-gradient-to-br from-blue-600 to-indigo-600 text-white rounded-tr-none"
                             : "bg-white/10 text-gray-100 border border-white/5 rounded-tl-none"
                             }`}>
-                            <p className="whitespace-pre-wrap">{msg.content}</p>
+                            {msg.role === "assistant" ? (
+                                <div className="prose prose-invert prose-sm max-w-none
+                                    prose-headings:text-white prose-headings:font-semibold prose-headings:mt-4 prose-headings:mb-2
+                                    prose-h1:text-xl prose-h2:text-lg prose-h3:text-base
+                                    prose-p:text-gray-200 prose-p:my-2
+                                    prose-strong:text-white prose-strong:font-semibold
+                                    prose-ul:my-2 prose-ul:pl-4 prose-li:text-gray-200 prose-li:my-1
+                                    prose-ol:my-2 prose-ol:pl-4
+                                    prose-table:my-3 prose-table:text-sm prose-table:w-full prose-table:border-collapse
+                                    prose-th:bg-white/10 prose-th:px-3 prose-th:py-2 prose-th:text-left prose-th:font-semibold prose-th:text-white prose-th:border prose-th:border-white/20
+                                    prose-td:px-3 prose-td:py-2 prose-td:border prose-td:border-white/10 prose-td:text-gray-300
+                                    prose-code:bg-white/10 prose-code:px-1 prose-code:rounded prose-code:text-blue-300
+                                    prose-hr:border-white/20 prose-hr:my-4">
+                                    <ReactMarkdown remarkPlugins={[remarkGfm]}>{msg.content}</ReactMarkdown>
+                                </div>
+                            ) : (
+                                <p className="whitespace-pre-wrap">{msg.content}</p>
+                            )}
                         </div>
                     </div>
                 ))}

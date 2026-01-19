@@ -9,7 +9,12 @@ from graph import app as graph_app
 
 load_dotenv()
 
-app = FastAPI(title="Policy Analyser AI")
+app = FastAPI(
+    title="Policy Analyser AI",
+    docs_url=None,        # Disables /docs (Swagger UI)
+    redoc_url=None,       # Disables /redoc (ReDoc)
+    openapi_url=None      # Disables /openapi.json
+)
 
 app.add_middleware(
     CORSMiddleware,
@@ -98,3 +103,7 @@ async def chat_endpoint(
         return {"response": response_text}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
