@@ -1,0 +1,6940 @@
+﻿python : <All keys 
+matched successfully>
+At line:1 char:1
++ python backend/main.py 
+2>&1 | Out-File -FilePath 
+backend_error.txt -E ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~
+    + CategoryInfo        
+      : NotSpe    cified: 
+(<All ke    ys matched 
+succe    ssfully>:String) 
+    [], RemoteExcep    
+tion
+    + FullyQualified    
+ErrorId : Native    
+CommandError
+ 
+INFO:     Started server 
+process [25492]
+INFO:     Waiting for 
+application startup.
+INFO:     Application 
+startup complete.
+INFO:     Uvicorn running 
+on http://0.0.0.0:8000 
+(Press CTRL+C to quit)
+OPIK: Started logging 
+traces to the 
+"policy-analyzer-ai" 
+project at https://www.com
+et.com/opik/api/v1/session
+/redirect/projects/?trace_
+id=019c3df7-ce39-732a-8f7b
+-9cf55e7bb3f5&path=aHR0cHM
+6Ly93d3cuY29tZXQuY29tL29wa
+WsvYXBpLw==.
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 2b192e07-f4
+5c-4359-a73c-41d0a0500797.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 397edfc5-11
+42-4ab1-a49c-4052dcf5dfd7.
+')
+DEBUG: Initializing HuggingFaceEmbeddings with model: nomic-embed-text-v1.5
+DEBUG: Classified Intent -> GREETING
+INFO:     127.0.0.1:57416 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+15:56:19 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=Lr/D
+29DBHZE2CESc6l7PGFwaVYqsB/
+QmFTUFIktlOv3z5rvKfB9xI4k8
+0WJytZOkNNwPL2dx5kYa3eF7ym
+XhhTBFYXVaDhnH6YshRwjd/qRV
+6SpPNmTg36TXUXSm; 
+Expires=Sun, 15 Feb 2026 
+15:56:19 GMT; Path=/, AWSA
+LBCORS=Lr/D29DBHZE2CESc6l7
+PGFwaVYqsB/QmFTUFIktlOv3z5
+rvKfB9xI4k80WJytZOkNNwPL2d
+x5kYa3eF7ymXhhTBFYXVaDhnH6
+YshRwjd/qRV6SpPNmTg36TXUXS
+m; Expires=Sun, 15 Feb 
+2026 15:56:19 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'c26896427b094d7be56e3f3cf
+5043932', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+15:56:19 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=UZzx
+CWSniaN4lmfVCTJiZjBBYgc7q3
+7sVQBA+eDbtBrDLfIchQ6jkF09
+9soOagQnymHqyerv4ZJ6LIBkiZ
+B3IckeORnJKaeqo1EWeqr/UK5p
+KLRHXfrO/Tl4QIq+; 
+Expires=Sun, 15 Feb 2026 
+15:56:19 GMT; Path=/, AWSA
+LBCORS=UZzxCWSniaN4lmfVCTJ
+iZjBBYgc7q37sVQBA+eDbtBrDL
+fIchQ6jkF099soOagQnymHqyer
+v4ZJ6LIBkiZB3IckeORnJKaeqo
+1EWeqr/UK5pKLRHXfrO/Tl4QIq
++; Expires=Sun, 15 Feb 
+2026 15:56:19 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'30f76362f81683e442e5a5200
+532d667', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+15:56:20 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=tZC5
+rK0pPhFaPdfORG6vSi7l/0RfWB
+7zEjmhsgyygMr1KflR8qZOHsuG
+vSJZnr3hxt1H8S4v26T2ormjPO
+iFLDi/KXN1ukNhRUokIHVaNDRR
+M5+BGVFNdGSn0OA2; 
+Expires=Sun, 15 Feb 2026 
+15:56:20 GMT; Path=/, AWSA
+LBCORS=tZC5rK0pPhFaPdfORG6
+vSi7l/0RfWB7zEjmhsgyygMr1K
+flR8qZOHsuGvSJZnr3hxt1H8S4
+v26T2ormjPOiFLDi/KXN1ukNhR
+UokIHVaNDRRM5+BGVFNdGSn0OA
+2; Expires=Sun, 15 Feb 
+2026 15:56:20 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'4de34dc418b5531c033d12055
+cd8dba5', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+15:56:20 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=pZAc
+qI7hmsOfeGoRcH8stMaieEMcXq
+ucXjlBpTeHNAl865wpFkqNnk2X
+mlUFJz/jnQfPRuxie+SE/kMmF7
+BnOhe1Z/8rN/SfvUpxkzweRU2o
+ksjwxzZ3N+zFjF1V; 
+Expires=Sun, 15 Feb 2026 
+15:56:20 GMT; Path=/, AWSA
+LBCORS=pZAcqI7hmsOfeGoRcH8
+stMaieEMcXqucXjlBpTeHNAl86
+5wpFkqNnk2XmlUFJz/jnQfPRux
+ie+SE/kMmF7BnOhe1Z/8rN/Sfv
+UpxkzweRU2oksjwxzZ3N+zFjF1
+V; Expires=Sun, 15 Feb 
+2026 15:56:20 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'3be001c0f1718bb3f9c8e36a9
+12d2830', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID fbf00678-7d
+bb-43a8-90c6-bdcc1fe5b347.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID fe799832-3a
+36-4ef8-98ee-86afb7208141.
+')
+DEBUG: Classified Intent -> GREETING
+INFO:     127.0.0.1:59793 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+15:56:28 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=vX/D
+LuE2urTHPlDAw6hh77Zp7Vhvra
+kTVU7O28zS82F9l51/in2kY6NE
+GpV99vBhVg7kFG6m7zMuA7lw5p
+XtDvwvmzBv5ZU/FJXLq7iGYP+2
+cCqXScfjW5zeRSD8; 
+Expires=Sun, 15 Feb 2026 
+15:56:28 GMT; Path=/, AWSA
+LBCORS=vX/DLuE2urTHPlDAw6h
+h77Zp7VhvrakTVU7O28zS82F9l
+51/in2kY6NEGpV99vBhVg7kFG6
+m7zMuA7lw5pXtDvwvmzBv5ZU/F
+JXLq7iGYP+2cCqXScfjW5zeRSD
+8; Expires=Sun, 15 Feb 
+2026 15:56:28 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'e01e1e391aec95f963d316862
+48fe3e8', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+15:56:28 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=pksZ
+8bGbhEl9Mtxhcu3PIeCmLmcjg8
+qw4OJsJVechRzl6ybuk3zpRAnd
+Yv9nhYYOpWhOyCiaa7UxlDf+FM
+5xX41nMCBCFgUvmpUSEr5e4U1X
+OvufP0BZaZ/oUINk; 
+Expires=Sun, 15 Feb 2026 
+15:56:28 GMT; Path=/, AWSA
+LBCORS=pksZ8bGbhEl9Mtxhcu3
+PIeCmLmcjg8qw4OJsJVechRzl6
+ybuk3zpRAndYv9nhYYOpWhOyCi
+aa7UxlDf+FM5xX41nMCBCFgUvm
+pUSEr5e4U1XOvufP0BZaZ/oUIN
+k; Expires=Sun, 15 Feb 
+2026 15:56:28 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'98101f8c1151b0f1cc0a81830
+a52c1a5', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Error ingesting documents: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+INFO:     127.0.0.1:65224 - "POST /upload HTTP/1.1" 200 OK
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Failed to send telemetry 
+event CollectionGetEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event 
+CollectionQueryEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Number of requested 
+results 5 is greater than 
+number of elements in 
+index 2, updating 
+n_results = 2
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Failed to send telemetry 
+event CollectionGetEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event 
+CollectionQueryEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 66cb329d-13
+a0-4981-8a67-b8ec585242cc.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID a007f0d8-3a
+76-460d-bfae-69b231dc5659.
+')
+DEBUG: Classified Intent -> POLICY_COMPARISON
+INFO:     127.0.0.1:49670 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:12:02 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=1DZX
+tvxoHuySoTYfWW1H00c1c/renH
+2jXbTc4cCif88YioRJzFO1EQuI
+ECbKN+xvYPmOSKbPoyeSwqHioE
+hjGKFWXWxzBE+i6LNL0I0yOd/O
+SuUKJVvXPRlRG3Fh; 
+Expires=Sun, 15 Feb 2026 
+16:12:02 GMT; Path=/, AWSA
+LBCORS=1DZXtvxoHuySoTYfWW1
+H00c1c/renH2jXbTc4cCif88Yi
+oRJzFO1EQuIECbKN+xvYPmOSKb
+PoyeSwqHioEhjGKFWXWxzBE+i6
+LNL0I0yOd/OSuUKJVvXPRlRG3F
+h; Expires=Sun, 15 Feb 
+2026 16:12:02 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'ce45b1c62ee0c4bdd4f106629
+3c67e59', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:12:02 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=ukTu
+R5Zsy00sPJxT/Bqmh6qdjo6v1l
+F3seiLWwZo5OAD39qSflKLfQPd
+bS3qYeviYws5STh9r4UxUMmlxZ
+blWpZx4VT1OO+cjtkmCMs2MDy/
+bYkCpqapX4UNgN2E; 
+Expires=Sun, 15 Feb 2026 
+16:12:02 GMT; Path=/, AWSA
+LBCORS=ukTuR5Zsy00sPJxT/Bq
+mh6qdjo6v1lF3seiLWwZo5OAD3
+9qSflKLfQPdbS3qYeviYws5STh
+9r4UxUMmlxZblWpZx4VT1OO+cj
+tkmCMs2MDy/bYkCpqapX4UNgN2
+E; Expires=Sun, 15 Feb 
+2026 16:12:02 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'ef6a91aefe693388dded05f0f
+3107ea3', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:12:03 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=yG98
+qK6JwHH3uNwt32aOc628iSe3S9
+tMDJXj4DvdW9s2lXo55lN/I1VH
+m0uSCBuUu8oLz9HZz/OxDwVahX
+2mp3540wPB58/hUcZHQ/LDvRjm
+srOX11FlxFyHvx7J; 
+Expires=Sun, 15 Feb 2026 
+16:12:03 GMT; Path=/, AWSA
+LBCORS=yG98qK6JwHH3uNwt32a
+Oc628iSe3S9tMDJXj4DvdW9s2l
+Xo55lN/I1VHm0uSCBuUu8oLz9H
+Zz/OxDwVahX2mp3540wPB58/hU
+cZHQ/LDvRjmsrOX11FlxFyHvx7
+J; Expires=Sun, 15 Feb 
+2026 16:12:03 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'9686c191db6dd384f83f8b043
+437cdcc', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:12:03 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=F1xJ
+Q6UZPosXmWodN738RRiesG0Jbe
+s7cySngR0cLbQywJb1Yc2NiHP2
+9Xe5ylO6DZOD60jemDKUY8X5Q1
+OW/n55XtxQmG2UjEReReox5jnt
++GT+k5iQiGiAmtAl; 
+Expires=Sun, 15 Feb 2026 
+16:12:03 GMT; Path=/, AWSA
+LBCORS=F1xJQ6UZPosXmWodN73
+8RRiesG0Jbes7cySngR0cLbQyw
+Jb1Yc2NiHP29Xe5ylO6DZOD60j
+emDKUY8X5Q1OW/n55XtxQmG2Uj
+EReReox5jnt+GT+k5iQiGiAmtA
+l; Expires=Sun, 15 Feb 
+2026 16:12:03 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'20b9e8d5ccf4e0ce9bbfb39af
+cdca274', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Number of requested 
+results 5 is greater than 
+number of elements in 
+index 2, updating 
+n_results = 2
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 3665c2b9-b7
+cc-4285-b0b0-4849ffa1da8c.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 6ad30e71-dd
+dc-4bcd-8038-a867448bd151.
+')
+DEBUG: Classified Intent -> POLICY_ANALYSIS
+INFO:     127.0.0.1:58889 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:12:57 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=GKuJ
+GlNTNJs+STG0Z0SazIWGmTb8oB
+AJvafs/Ev08vQWapubxaVqchiz
+ahLYAst56M1xjO24fAXqBcpvNP
+xO869QH8nEoTbWPkKDAMIsypvd
+eTu7/ZI9NJrhXoKk; 
+Expires=Sun, 15 Feb 2026 
+16:12:57 GMT; Path=/, AWSA
+LBCORS=GKuJGlNTNJs+STG0Z0S
+azIWGmTb8oBAJvafs/Ev08vQWa
+pubxaVqchizahLYAst56M1xjO2
+4fAXqBcpvNPxO869QH8nEoTbWP
+kKDAMIsypvdeTu7/ZI9NJrhXoK
+k; Expires=Sun, 15 Feb 
+2026 16:12:57 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'11c628361b131e34ab1ddee4b
+f4a519d', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:12:57 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=FcNA
+cBKrcE3+UTRmKPziByv6/czHOL
+cs1EhAsv3Nayix7XqIrVq9zgp3
+80y6oso0uJ9zEDOoAsPn/pSSkO
+2NRjxQV4vG2r4RuFkF32dAFWRO
+qVTB8vtxtWHaOv+u; 
+Expires=Sun, 15 Feb 2026 
+16:12:57 GMT; Path=/, AWSA
+LBCORS=FcNAcBKrcE3+UTRmKPz
+iByv6/czHOLcs1EhAsv3Nayix7
+XqIrVq9zgp380y6oso0uJ9zEDO
+oAsPn/pSSkO2NRjxQV4vG2r4Ru
+FkF32dAFWROqVTB8vtxtWHaOv+
+u; Expires=Sun, 15 Feb 
+2026 16:12:57 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'9dce23500ad61bc1a20e11021
+708e71f', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:12:58 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=csSz
+D/X4g12DBIkncRFX2FoPJsi4fT
+qLpS7GVSlGbZ6pRqXvqresHaUX
+7wwL/8UPRI/jRk3oZRpqzvuusb
+Q22wtlBDSxawuZ6DGhN1STOmhT
+uh0QebiPqjsqvEkC; 
+Expires=Sun, 15 Feb 2026 
+16:12:58 GMT; Path=/, AWSA
+LBCORS=csSzD/X4g12DBIkncRF
+X2FoPJsi4fTqLpS7GVSlGbZ6pR
+qXvqresHaUX7wwL/8UPRI/jRk3
+oZRpqzvuusbQ22wtlBDSxawuZ6
+DGhN1STOmhTuh0QebiPqjsqvEk
+C; Expires=Sun, 15 Feb 
+2026 16:12:58 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'97f6d04019c395c30a2905598
+64cb9b3', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:12:58 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=kCNT
+jK0v1rJv/cLC1AcLBPMxmQ/qXB
+6EzxmwzyjKcLWXkbMiK+Q3b4zY
+Oh1cD8pUjZRA+JzvCF0OESinXC
+J77uwudJPxatuW2kJTIdzZgtdN
+ZSdxQDZ4ac2Lk6T/; 
+Expires=Sun, 15 Feb 2026 
+16:12:58 GMT; Path=/, AWSA
+LBCORS=kCNTjK0v1rJv/cLC1Ac
+LBPMxmQ/qXB6EzxmwzyjKcLWXk
+bMiK+Q3b4zYOh1cD8pUjZRA+Jz
+vCF0OESinXCJ77uwudJPxatuW2
+kJTIdzZgtdNZSdxQDZ4ac2Lk6T
+/; Expires=Sun, 15 Feb 
+2026 16:12:58 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'23281c9a04964945770ddb298
+0ba807a', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Number of requested 
+results 5 is greater than 
+number of elements in 
+index 2, updating 
+n_results = 2
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 07d84353-b0
+5a-4240-9c93-64ec3526a908.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID f01fcf5a-92
+64-43ee-bfd7-f3b55ffca6df.
+')
+DEBUG: Classified Intent -> POLICY_ANALYSIS
+INFO:     127.0.0.1:60896 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:13:30 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=fVTD
+T4CbGUHEhnr0OAuKpRC8XFy9Hy
+bmsTYONNQZcmqKYnpkZl1yriNJ
+GflbG5oKPMhYIIZrTyObcOgdKJ
+VLQx8HXoGxvMvksZVXTgwbuhBw
+ez18PLdi7pJPY2qf; 
+Expires=Sun, 15 Feb 2026 
+16:13:30 GMT; Path=/, AWSA
+LBCORS=fVTDT4CbGUHEhnr0OAu
+KpRC8XFy9HybmsTYONNQZcmqKY
+npkZl1yriNJGflbG5oKPMhYIIZ
+rTyObcOgdKJVLQx8HXoGxvMvks
+ZVXTgwbuhBwez18PLdi7pJPY2q
+f; Expires=Sun, 15 Feb 
+2026 16:13:30 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'c02ed92f0c09f9efbc15f7609
+0f5fdc4', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:13:30 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=mDVW
+X8HX4YcXSRPsGm7p4h5F4rfAQE
+TzG6HMPUoQ+L9JGzgyHocw4Zpx
+jVhhvK3pU5Ej3roPL1ODiT+s0s
+onJ6jgxA8aSu2vanXjY4gEIH4r
+/I4Rn6Zl9oVwy2SF; 
+Expires=Sun, 15 Feb 2026 
+16:13:30 GMT; Path=/, AWSA
+LBCORS=mDVWX8HX4YcXSRPsGm7
+p4h5F4rfAQETzG6HMPUoQ+L9JG
+zgyHocw4ZpxjVhhvK3pU5Ej3ro
+PL1ODiT+s0sonJ6jgxA8aSu2va
+nXjY4gEIH4r/I4Rn6Zl9oVwy2S
+F; Expires=Sun, 15 Feb 
+2026 16:13:30 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'2f34e22792015b01807eddaf9
+37ff7cc', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Number of requested 
+results 5 is greater than 
+number of elements in 
+index 2, updating 
+n_results = 2
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID ea1a3bae-8c
+9e-41af-9c23-78748b099f6e.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID bcade49b-a3
+91-4621-b734-db7630f6744b.
+')
+DEBUG: Classified Intent -> POLICY_ANALYSIS
+INFO:     127.0.0.1:51829 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:14:04 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=85Xl
+DuQjntWGz+mN9AfGdMxc0aILbj
+O5E2noXjbOYODe4KIyBdex21BG
+mXesXc9v7KAWb1OVqX3wkU0LyG
++qy8wfWrql7uTtVB6F4CZue5fW
+WuUTGZdViN3qDyZ1; 
+Expires=Sun, 15 Feb 2026 
+16:14:04 GMT; Path=/, AWSA
+LBCORS=85XlDuQjntWGz+mN9Af
+GdMxc0aILbjO5E2noXjbOYODe4
+KIyBdex21BGmXesXc9v7KAWb1O
+VqX3wkU0LyG+qy8wfWrql7uTtV
+B6F4CZue5fWWuUTGZdViN3qDyZ
+1; Expires=Sun, 15 Feb 
+2026 16:14:04 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'8d364affdbe66af1176852a12
+78c4069', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:14:04 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=pHg8
+tbO0lBs/l5QhWTRoWbpFZ1N1qM
+sSG2wcZ0cz2a/IaXU4SMyuB9k/
+qQ28xK5fA5K/5sDL01CvaN8p+g
+O3ciZf/DMvtvQUf37PVmrvBUQq
+3jwAPD85tUgBsWMs; 
+Expires=Sun, 15 Feb 2026 
+16:14:04 GMT; Path=/, AWSA
+LBCORS=pHg8tbO0lBs/l5QhWTR
+oWbpFZ1N1qMsSG2wcZ0cz2a/Ia
+XU4SMyuB9k/qQ28xK5fA5K/5sD
+L01CvaN8p+gO3ciZf/DMvtvQUf
+37PVmrvBUQq3jwAPD85tUgBsWM
+s; Expires=Sun, 15 Feb 
+2026 16:14:04 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'0ee77ce150158f29d6d4d6496
+f6da8a3', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:14:06 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=sNh5
+x+fUeP3gf/1K8cb5Zl/gOqXm72
+N61saS9TwBUpfAsOdyUMAWQYpf
+9avvODZwd5ryHRYgP9gcknPSWi
+S+MFUGXxLNG3A9ltbRWZLbdBwJ
+bPOq3/eCDs3/gCB6; 
+Expires=Sun, 15 Feb 2026 
+16:14:06 GMT; Path=/, AWSA
+LBCORS=sNh5x+fUeP3gf/1K8cb
+5Zl/gOqXm72N61saS9TwBUpfAs
+OdyUMAWQYpf9avvODZwd5ryHRY
+gP9gcknPSWiS+MFUGXxLNG3A9l
+tbRWZLbdBwJbPOq3/eCDs3/gCB
+6; Expires=Sun, 15 Feb 
+2026 16:14:06 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'cf70fa26c7d2cbad1d28a6be4
+074601e', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:14:06 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=qKy+
+P6O0EUd2w5YjI7PAcQX70ek1jD
+FyfaWpCMrtM/RgvaDvX6Pg8dNK
+ba3b5SUqJ8MqftVcwmLA2hJoZb
+blq1XmGSQabRwhWwwZDcp7JsJE
+V2UDd7pw5I/mFDMY; 
+Expires=Sun, 15 Feb 2026 
+16:14:06 GMT; Path=/, AWSA
+LBCORS=qKy+P6O0EUd2w5YjI7P
+AcQX70ek1jDFyfaWpCMrtM/Rgv
+aDvX6Pg8dNKba3b5SUqJ8MqftV
+cwmLA2hJoZbblq1XmGSQabRwhW
+wwZDcp7JsJEV2UDd7pw5I/mFDM
+Y; Expires=Sun, 15 Feb 
+2026 16:14:06 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'dae6b8603351268a70a18b4af
+2704fad', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Number of requested 
+results 5 is greater than 
+number of elements in 
+index 2, updating 
+n_results = 2
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID cdb24ad8-39
+b8-42ba-9b88-0628d83e86be.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID ddf491cf-5e
+ef-4b0b-844a-14aa96a65bbd.
+')
+DEBUG: Classified Intent -> POLICY_ANALYSIS
+INFO:     127.0.0.1:51218 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:23:57 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=Numq
+TpDnqR2ZD4E2pflWtX77yia3WY
+PKXntnAT7mMjjNCaaUmx+0Y1Io
+Dv0pfStOSj93Y0zPOkK+xDlRBj
+0YEXwob7c6mPiBXlgbCVX1uVd7
+SK/KbWt0YhWvfYZB; 
+Expires=Sun, 15 Feb 2026 
+16:23:57 GMT; Path=/, AWSA
+LBCORS=NumqTpDnqR2ZD4E2pfl
+WtX77yia3WYPKXntnAT7mMjjNC
+aaUmx+0Y1IoDv0pfStOSj93Y0z
+POkK+xDlRBj0YEXwob7c6mPiBX
+lgbCVX1uVd7SK/KbWt0YhWvfYZ
+B; Expires=Sun, 15 Feb 
+2026 16:23:57 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'24fad73d10d06715de66219ef
+ec5ce2d', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:23:57 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=8//G
+/Hk/lDfu62XxWWlHXZoodgcYmG
+TGVswE7l1f11EaFLHYu8xe4WRT
+17GW3aPP4lTyH9AJ01yKJ2VhJg
+37TpX/EpxUJcuibEunkTwANiMd
+PpD23DyFTlf0afu3; 
+Expires=Sun, 15 Feb 2026 
+16:23:57 GMT; Path=/, AWSA
+LBCORS=8//G/Hk/lDfu62XxWWl
+HXZoodgcYmGTGVswE7l1f11EaF
+LHYu8xe4WRT17GW3aPP4lTyH9A
+J01yKJ2VhJg37TpX/EpxUJcuib
+EunkTwANiMdPpD23DyFTlf0afu
+3; Expires=Sun, 15 Feb 
+2026 16:23:57 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'b0e7c62de24068e1414880270
+315122e', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:23:59 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=X9gO
+838nZzwj5k6oqlkXk8FX5gaqgv
+4cHWe9cKb20p8dwd28JDf2wXcr
+ypagCIxEIkRuuHwIiwu3YTl7MH
+ebFaVPskaHXr8lk0Lou2E4UH0Z
+8wRnyGwpTTFdX2gq; 
+Expires=Sun, 15 Feb 2026 
+16:23:59 GMT; Path=/, AWSA
+LBCORS=X9gO838nZzwj5k6oqlk
+Xk8FX5gaqgv4cHWe9cKb20p8dw
+d28JDf2wXcrypagCIxEIkRuuHw
+Iiwu3YTl7MHebFaVPskaHXr8lk
+0Lou2E4UH0Z8wRnyGwpTTFdX2g
+q; Expires=Sun, 15 Feb 
+2026 16:23:59 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'e2636d5582a7e7493c0610ce3
+0816676', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:23:59 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=ve2w
+qmFsm+MlnOOkPckdWxQPaRptu1
+Cmm9fsUUtYYk9fzhFwaChbbmGF
+o8TVzjw34ffid5rnz7mrGpa4LV
+zePMdp5O3hi0j1dNjhxDSPLEZI
+e21pin95OpXi9TKu; 
+Expires=Sun, 15 Feb 2026 
+16:23:59 GMT; Path=/, AWSA
+LBCORS=ve2wqmFsm+MlnOOkPck
+dWxQPaRptu1Cmm9fsUUtYYk9fz
+hFwaChbbmGFo8TVzjw34ffid5r
+nz7mrGpa4LVzePMdp5O3hi0j1d
+NjhxDSPLEZIe21pin95OpXi9TK
+u; Expires=Sun, 15 Feb 
+2026 16:23:59 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'3624bf3dd397fa5fd6ba50071
+f59f7c9', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 7c6566b6-02
+4f-4615-ba7a-02543117dfc9.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID bf3b76ac-be
+0d-4061-a73f-9d044f5b1c64.
+')
+DEBUG: Classified Intent -> GREETING
+INFO:     127.0.0.1:65287 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:24:24 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=6sH0
+IA61W2Lc6RqDvJlS6CObowcboB
+7OZnxvubypqiKPmvqLkEYtNgoM
+2HxsMX2M5KAipEP6/20KjprUTf
+ls86SQJh/yd6hQKSPPkq3r9gM3
+BpuByxwUhHkVSm8s; 
+Expires=Sun, 15 Feb 2026 
+16:24:24 GMT; Path=/, AWSA
+LBCORS=6sH0IA61W2Lc6RqDvJl
+S6CObowcboB7OZnxvubypqiKPm
+vqLkEYtNgoM2HxsMX2M5KAipEP
+6/20KjprUTfls86SQJh/yd6hQK
+SPPkq3r9gM3BpuByxwUhHkVSm8
+s; Expires=Sun, 15 Feb 
+2026 16:24:24 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'f5405fa97755735fadc903594
+de2873b', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:24:24 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=BJI2
+STZtAjC/AE+WawdE9UGZcxnedB
+xgg5DXPHEJvJ9KI4pwRnRguZjH
+Fq7zibfkmb2Mn6zEyPp1h6NH9r
+/n9G3vFNIU3kajLZwlWcFYRuet
+2xOA1+Ow7Xv3Kyrt; 
+Expires=Sun, 15 Feb 2026 
+16:24:24 GMT; Path=/, AWSA
+LBCORS=BJI2STZtAjC/AE+Wawd
+E9UGZcxnedBxgg5DXPHEJvJ9KI
+4pwRnRguZjHFq7zibfkmb2Mn6z
+EyPp1h6NH9r/n9G3vFNIU3kajL
+ZwlWcFYRuet2xOA1+Ow7Xv3Kyr
+t; Expires=Sun, 15 Feb 
+2026 16:24:24 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'c977df9c4b94e9b6722536db1
+7728707', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:24:25 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=ebNv
+bxSJQPFtSx0g8OyTlJFcVDJLd6
+DoTgeVvr8VLLBPWqlXs1j/PTkS
+eub2V4MzME1YRWJH0s7VeAqO4v
+TfEoVQ5cm3+mGzleVHY7zSL006
+1kdP8Bmk3Hpv8mNO; 
+Expires=Sun, 15 Feb 2026 
+16:24:25 GMT; Path=/, AWSA
+LBCORS=ebNvbxSJQPFtSx0g8Oy
+TlJFcVDJLd6DoTgeVvr8VLLBPW
+qlXs1j/PTkSeub2V4MzME1YRWJ
+H0s7VeAqO4vTfEoVQ5cm3+mGzl
+eVHY7zSL0061kdP8Bmk3Hpv8mN
+O; Expires=Sun, 15 Feb 
+2026 16:24:25 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'779e1a87c55c0a65c76544184
+d9402e9', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:24:25 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=Kn4d
+IaFWIIlkptmiBpxp4eFgR4X/6u
+/RBO9HOi6u+TaccWzpLlRhm00J
+Kgj66qmKoO6tKRUogHvPMkJLPv
+xa4NOEYiRNeMxncgf1MQjFTeAi
+NCRyo5jDsFY7l0LY; 
+Expires=Sun, 15 Feb 2026 
+16:24:25 GMT; Path=/, AWSA
+LBCORS=Kn4dIaFWIIlkptmiBpx
+p4eFgR4X/6u/RBO9HOi6u+Tacc
+WzpLlRhm00JKgj66qmKoO6tKRU
+ogHvPMkJLPvxa4NOEYiRNeMxnc
+gf1MQjFTeAiNCRyo5jDsFY7l0L
+Y; Expires=Sun, 15 Feb 
+2026 16:24:25 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'782cbbaf92ff06421e2211ca6
+245d661', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 103bcc37-2d
+a3-4878-86eb-a73adbba07a0.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID d5cdf036-0d
+6c-4c1d-8049-1c8a8b946581.
+')
+DEBUG: Classified Intent -> POLICY_ANALYSIS
+INFO:     127.0.0.1:59913 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:24:49 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=1BlC
+1zqWMhLtrn12h0fAbVeG3TRKWz
+kP4kk+HrZiYKezdbKnMlUy58t3
+qBljg16z7ENah+sWIIQ2GktTWI
+sq3nB3LrI6uPwuby1wbJGYJldV
+AQ8B02uoeM9UWAB0; 
+Expires=Sun, 15 Feb 2026 
+16:24:49 GMT; Path=/, AWSA
+LBCORS=1BlC1zqWMhLtrn12h0f
+AbVeG3TRKWzkP4kk+HrZiYKezd
+bKnMlUy58t3qBljg16z7ENah+s
+WIIQ2GktTWIsq3nB3LrI6uPwub
+y1wbJGYJldVAQ8B02uoeM9UWAB
+0; Expires=Sun, 15 Feb 
+2026 16:24:49 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'4b38255b8bb4eda85fe292766
+35ff00c', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:24:49 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=pzPy
+SUcmqc4+kswrp0jXFngV1FoEzB
+peZBah+35Bps+e2o3gPev6Z2Ym
+QDnyqSZCMyn5Gbn/DBLE840WuI
+lnQ1iDDWjHouKHOsPj9ZOjRwsf
+uLXCYZ2+OokbsBs0; 
+Expires=Sun, 15 Feb 2026 
+16:24:49 GMT; Path=/, AWSA
+LBCORS=pzPySUcmqc4+kswrp0j
+XFngV1FoEzBpeZBah+35Bps+e2
+o3gPev6Z2YmQDnyqSZCMyn5Gbn
+/DBLE840WuIlnQ1iDDWjHouKHO
+sPj9ZOjRwsfuLXCYZ2+OokbsBs
+0; Expires=Sun, 15 Feb 
+2026 16:24:49 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'8cdc217d47127e155cce4ae12
+7823a51', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:24:50 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=1Rep
+EsXAKhxZXCu0lIDmZvp4te5/GJ
+mORg0nD5RYUyrrk3+zB2K8y0Vl
+h4YOemmwEyoPVMomLBY+/eSRjc
+ziUsfAQGNNM4Yib85Q1XvL8+ww
+lSmiOZI2QYlxHmb9; 
+Expires=Sun, 15 Feb 2026 
+16:24:50 GMT; Path=/, AWSA
+LBCORS=1RepEsXAKhxZXCu0lID
+mZvp4te5/GJmORg0nD5RYUyrrk
+3+zB2K8y0Vlh4YOemmwEyoPVMo
+mLBY+/eSRjcziUsfAQGNNM4Yib
+85Q1XvL8+wwlSmiOZI2QYlxHmb
+9; Expires=Sun, 15 Feb 
+2026 16:24:50 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'84824fefb6e09c4a59e002ba3
+5fc6132', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:24:50 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=2kk7
+scdjqsG0dfkQP5Vx4J2aZenNC5
+BCZcTUqy/nfXv+gLdpWT32b5sR
+v9UB3VdG9yZ1a+sMktJ/Kb7s8c
+1veuxQZWyNo/KDtxAXfHwEIPpF
++6cSYyDbXY7jPGw9; 
+Expires=Sun, 15 Feb 2026 
+16:24:50 GMT; Path=/, AWSA
+LBCORS=2kk7scdjqsG0dfkQP5V
+x4J2aZenNC5BCZcTUqy/nfXv+g
+LdpWT32b5sRv9UB3VdG9yZ1a+s
+MktJ/Kb7s8c1veuxQZWyNo/KDt
+xAXfHwEIPpF+6cSYyDbXY7jPGw
+9; Expires=Sun, 15 Feb 
+2026 16:24:50 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'9ac0371eeb13b89d3c8d13d52
+27bfb02', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 45a0de51-8b
+5d-45ff-9de8-87fbb2924eca.
+')
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:25:16 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=5DPF
+5el5Bj74nwmOiT2+8gMY2Mxtnt
+WXWYvHKnZmdk72tHciy+E+cXj2
+5BvCkBIrqG5Qd4h8+aJD8bCu8u
+GWDx5vk+Hmy2zguSCIYISvpPz2
+p4Vz7GPHOaAXlGXv; 
+Expires=Sun, 15 Feb 2026 
+16:25:16 GMT; Path=/, AWSA
+LBCORS=5DPF5el5Bj74nwmOiT2
++8gMY2MxtntWXWYvHKnZmdk72t
+Hciy+E+cXj25BvCkBIrqG5Qd4h
+8+aJD8bCu8uGWDx5vk+Hmy2zgu
+SCIYISvpPz2p4Vz7GPHOaAXlGX
+v; Expires=Sun, 15 Feb 
+2026 16:25:16 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'fe3831b691b771a8fb856301b
+aab6620', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:25:16 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=NHh5
+8CK+4J+jNd709d485jXYXK2BiR
+s1XdlVjvY/X8+riRRQ6URChLc2
+lWu98zJWWl7AAGpvoTXpa3iLfw
+idGPCFJMnYhUUg5DbyIznWgP9z
+sos6Mph7rl2J6284; 
+Expires=Sun, 15 Feb 2026 
+16:25:16 GMT; Path=/, AWSA
+LBCORS=NHh58CK+4J+jNd709d4
+85jXYXK2BiRs1XdlVjvY/X8+ri
+RRQ6URChLc2lWu98zJWWl7AAGp
+voTXpa3iLfwidGPCFJMnYhUUg5
+DbyIznWgP9zsos6Mph7rl2J628
+4; Expires=Sun, 15 Feb 
+2026 16:25:16 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'7a312836f7da550584215b982
+a71bbab', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 32017093-68
+8e-4889-9001-03f062bcbf95.
+')
+DEBUG: Classified Intent -> WEB_SEARCH
+INFO:     127.0.0.1:56216 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:25:19 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=weMs
+T4vOJlqDdA15HVEbTxmGRubjTr
+bPzO5OzXRGwMDSwk1I/zvYhmLp
+WDSOMN7wj3TgEcXqSk9El0iDDD
++sWDktli+ThRsYrGXpORrW3rRl
+kpwsLdYahOd5Sc4s; 
+Expires=Sun, 15 Feb 2026 
+16:25:19 GMT; Path=/, AWSA
+LBCORS=weMsT4vOJlqDdA15HVE
+bTxmGRubjTrbPzO5OzXRGwMDSw
+k1I/zvYhmLpWDSOMN7wj3TgEcX
+qSk9El0iDDD+sWDktli+ThRsYr
+GXpORrW3rRlkpwsLdYahOd5Sc4
+s; Expires=Sun, 15 Feb 
+2026 16:25:19 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'7b4fc11e65c57820ca8e8901e
+9804c9b', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:25:21 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=uoeX
+0LJyl6lfreXhm5+ea874BhluwD
+L6ceeFX/cuslNkEQs9R2GueuZJ
+0y5TZBil3BWOjEvUpQl918Tc0+
+DnlNdpRNENc6U+9E0t2CB6SsCc
+hwHmH9Y2xJUakYdN; 
+Expires=Sun, 15 Feb 2026 
+16:25:21 GMT; Path=/, AWSA
+LBCORS=uoeX0LJyl6lfreXhm5+
+ea874BhluwDL6ceeFX/cuslNkE
+Qs9R2GueuZJ0y5TZBil3BWOjEv
+UpQl918Tc0+DnlNdpRNENc6U+9
+E0t2CB6SsCchwHmH9Y2xJUakYd
+N; Expires=Sun, 15 Feb 
+2026 16:25:21 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'a42dac53a251a1ea57ff1cb3d
+134f063', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:25:21 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=tTOR
+4i83WzKbRwuWs2PDLMMY43fdWo
+kJWCYOg/QqW29D2Io7Ma47K6Fb
+2Sk9X8sj6o04NnVR4h+RE/BM/d
+FVSnqA59BVtlDtT3RXSd7HPUP+
+wJm2cNl3bcIAAKEq; 
+Expires=Sun, 15 Feb 2026 
+16:25:21 GMT; Path=/, AWSA
+LBCORS=tTOR4i83WzKbRwuWs2P
+DLMMY43fdWokJWCYOg/QqW29D2
+Io7Ma47K6Fb2Sk9X8sj6o04NnV
+R4h+RE/BM/dFVSnqA59BVtlDtT
+3RXSd7HPUP+wJm2cNl3bcIAAKE
+q; Expires=Sun, 15 Feb 
+2026 16:25:21 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'fa9966955c05f4caa18f4907d
+7fe6930', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 4e34aab8-a6
+6b-4851-a88d-67f1e7c8ceee.
+')
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:26:05 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=2hZv
+ZHNV27ZrjoR11mWBYBVOiE2i7J
+wT3Q4eBpGm9Xy13R7Esnh3MHdB
+njwEmjsJOfHfgSyBnFSDRmEDte
+w7tCTxDYusZ1r3nWpTWtq4oueh
+wohDY52ur5Mosjd0; 
+Expires=Sun, 15 Feb 2026 
+16:26:05 GMT; Path=/, AWSA
+LBCORS=2hZvZHNV27ZrjoR11mW
+BYBVOiE2i7JwT3Q4eBpGm9Xy13
+R7Esnh3MHdBnjwEmjsJOfHfgSy
+BnFSDRmEDtew7tCTxDYusZ1r3n
+WpTWtq4ouehwohDY52ur5Mosjd
+0; Expires=Sun, 15 Feb 
+2026 16:26:05 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'4eaa553dee4fe324fba21263c
+35c2081', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:26:05 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=UBYU
+LKrrN6PAIVKzHSXN6Foko0ZISR
+lzU40jp3bBO335yDwIFPObGNuL
+wMEwSxiB/C3nZEx769MI1Oqh4g
+ikUg/QIJz+5DJcRMXg6LgYzL3x
+lnR+/aOBYQmgZPIL; 
+Expires=Sun, 15 Feb 2026 
+16:26:05 GMT; Path=/, AWSA
+LBCORS=UBYULKrrN6PAIVKzHSX
+N6Foko0ZISRlzU40jp3bBO335y
+DwIFPObGNuLwMEwSxiB/C3nZEx
+769MI1Oqh4gikUg/QIJz+5DJcR
+MXg6LgYzL3xlnR+/aOBYQmgZPI
+L; Expires=Sun, 15 Feb 
+2026 16:26:05 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'10eda60106950c92232f33010
+788f7a1', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID ab111169-0a
+01-4303-8a93-835a34e9adbd.
+')
+DEBUG: Classified Intent -> WEB_SEARCH
+INFO:     127.0.0.1:64487 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:26:08 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=hZ2H
+ebCwZvYliu95xcx7GvJ3Y9Kkh9
+JmilQn3E5nhhsuslkERY40l3M2
+0Cjgxw2ufYm7K1XPdBMBSRXLvR
+O57q4cHkaeShHDqrdld8Rgejgr
+g4/9PqMcqaM0/IRH; 
+Expires=Sun, 15 Feb 2026 
+16:26:08 GMT; Path=/, AWSA
+LBCORS=hZ2HebCwZvYliu95xcx
+7GvJ3Y9Kkh9JmilQn3E5nhhsus
+lkERY40l3M20Cjgxw2ufYm7K1X
+PdBMBSRXLvRO57q4cHkaeShHDq
+rdld8Rgejgrg4/9PqMcqaM0/IR
+H; Expires=Sun, 15 Feb 
+2026 16:26:08 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'be1f43accd9e339627ea0ff7a
+996b33b', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:26:08 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=sJ+c
+YbU0LjJNkaQm+wpxZnLO4XjN6K
+IM1JE8A+CA56D/dLHuQdy74b1i
+8gJxdfp2wNBPqaGmA8b2+Owe4m
+GphUSfpXN7ZWralcBAA8IEsHjC
+RaQGNwRMuoz446QH; 
+Expires=Sun, 15 Feb 2026 
+16:26:08 GMT; Path=/, AWSA
+LBCORS=sJ+cYbU0LjJNkaQm+wp
+xZnLO4XjN6KIM1JE8A+CA56D/d
+LHuQdy74b1i8gJxdfp2wNBPqaG
+mA8b2+Owe4mGphUSfpXN7ZWral
+cBAA8IEsHjCRaQGNwRMuoz446Q
+H; Expires=Sun, 15 Feb 
+2026 16:26:08 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'2ce67d833289550e67f7d35b2
+533ecd8', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 8aefaabc-ed
+b7-4229-ac27-38141a6cb150.
+')
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:26:59 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=wFYi
+zd6Mv9x5feztv8MuCQjbSE/qq1
+wqDMm7N1brQIv/2IuSeaN7089D
+aZPanvi1yQsCuI5hhGgB/m+U0G
+PtexxwIH3fr6GU+L37XX+epSPx
+PbFJYNTkstophlTh; 
+Expires=Sun, 15 Feb 2026 
+16:26:59 GMT; Path=/, AWSA
+LBCORS=wFYizd6Mv9x5feztv8M
+uCQjbSE/qq1wqDMm7N1brQIv/2
+IuSeaN7089DaZPanvi1yQsCuI5
+hhGgB/m+U0GPtexxwIH3fr6GU+
+L37XX+epSPxPbFJYNTkstophlT
+h; Expires=Sun, 15 Feb 
+2026 16:26:59 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'23011112d8815bcf5bc172b03
+ac25539', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:26:59 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=Icjz
+yTdDVK5F/oulmS9wjFY0X6l4Pb
+7hO5j0D3EUMyC3tTIdoPgempC4
+D13FN1geK47NLRq72Ndlse+Xtn
+6Ea+2H9+wa35IbecZp9tnDwB6N
+8DnZLIVtr2qqxWMr; 
+Expires=Sun, 15 Feb 2026 
+16:26:59 GMT; Path=/, AWSA
+LBCORS=IcjzyTdDVK5F/oulmS9
+wjFY0X6l4Pb7hO5j0D3EUMyC3t
+TIdoPgempC4D13FN1geK47NLRq
+72Ndlse+Xtn6Ea+2H9+wa35Ibe
+cZp9tnDwB6N8DnZLIVtr2qqxWM
+r; Expires=Sun, 15 Feb 
+2026 16:26:59 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'d05ab85e2041a628780958943
+c887267', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 35efed52-f7
+d9-4937-9a7c-d64b42be2660.
+')
+DEBUG: Classified Intent -> WEB_SEARCH
+INFO:     127.0.0.1:63235 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:27:02 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=g3S4
+UAQ10LVBFUrLNzPcd340oMxrh0
+zn0Gs4y5xcj+DbL60UymxSLnpG
+PybM4xl+JFT/16VIQgxQinGdB7
+lu7ld1kn6GDkQHM/sBoIqUFglK
+da1MU4AjCxZV93tK; 
+Expires=Sun, 15 Feb 2026 
+16:27:02 GMT; Path=/, AWSA
+LBCORS=g3S4UAQ10LVBFUrLNzP
+cd340oMxrh0zn0Gs4y5xcj+DbL
+60UymxSLnpGPybM4xl+JFT/16V
+IQgxQinGdB7lu7ld1kn6GDkQHM
+/sBoIqUFglKda1MU4AjCxZV93t
+K; Expires=Sun, 15 Feb 
+2026 16:27:02 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'b8d55c8db97b4c4d614a09c11
+dc346ce', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:27:04 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=s2jf
+z9vhQMrnIyMD6G4IeCvTa8jkxu
+EjluYIUBmxuFA8Ozir5Vc8w/fJ
+1QoDD1YdPDAYvDKzv3tLTIvZxW
+VTiBwzCWF4bs2gTblexN4M3YgV
+qHzRhNfvfOhmwLBu; 
+Expires=Sun, 15 Feb 2026 
+16:27:04 GMT; Path=/, AWSA
+LBCORS=s2jfz9vhQMrnIyMD6G4
+IeCvTa8jkxuEjluYIUBmxuFA8O
+zir5Vc8w/fJ1QoDD1YdPDAYvDK
+zv3tLTIvZxWVTiBwzCWF4bs2gT
+blexN4M3YgVqHzRhNfvfOhmwLB
+u; Expires=Sun, 15 Feb 
+2026 16:27:04 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'0ddb4b2c1fdc476dc6202b789
+0083279', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 4e451596-6b
+aa-4d93-b16e-602b18670e6c.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 4440bbb5-2e
+fa-4146-a076-836845b3010b.
+')
+DEBUG: Classified Intent -> POLICY_ANALYSIS
+INFO:     127.0.0.1:62831 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:27:42 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=mIvK
+rubMdUR1fQsPln7yeCpUppoyAs
+YvPHFGK5dJKNvfW0HBWSNdTDEJ
+tJyy8Y+c4e9BcLDnvP7GXkf8VT
+GRaNwbfYbOe1de/QhDTWWN5v7Q
+8JZeT+FYiCDHS+XN; 
+Expires=Sun, 15 Feb 2026 
+16:27:42 GMT; Path=/, AWSA
+LBCORS=mIvKrubMdUR1fQsPln7
+yeCpUppoyAsYvPHFGK5dJKNvfW
+0HBWSNdTDEJtJyy8Y+c4e9BcLD
+nvP7GXkf8VTGRaNwbfYbOe1de/
+QhDTWWN5v7Q8JZeT+FYiCDHS+X
+N; Expires=Sun, 15 Feb 
+2026 16:27:42 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'e801fefe96bdf0f55839b805b
+774fa0f', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:27:42 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=uayw
+EjUitl9mMPnLx43QUODOvkoTRl
+gcaMNn8mvvyfURRGmjN+aSZ/sx
+cp1oXFEEiPgo8BIXoeUavZReS8
+tGVGDfdH8M9lFtTw+hZpQ1WWZg
+uk8Q8ZrAwENG4yUw; 
+Expires=Sun, 15 Feb 2026 
+16:27:42 GMT; Path=/, AWSA
+LBCORS=uaywEjUitl9mMPnLx43
+QUODOvkoTRlgcaMNn8mvvyfURR
+GmjN+aSZ/sxcp1oXFEEiPgo8BI
+XoeUavZReS8tGVGDfdH8M9lFtT
+w+hZpQ1WWZguk8Q8ZrAwENG4yU
+w; Expires=Sun, 15 Feb 
+2026 16:27:42 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'e16742cbab8b2ababc9124d6e
+6cabaf5', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 5d79f006-e3
+6b-4551-9810-bba95e35fc1c.
+')
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:28:13 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=gp9O
+1hARQfgyZqOx+WwyJcxF6Wxtqc
+Wi9w1A/F80f1/6DgIjaB87ACWf
+DRx7WXVs+kkm/lDI3xS6fROQMt
+sWF8HWUq9t+chsEk1bse+8uu7V
+fjX7q62D+tYFhifR; 
+Expires=Sun, 15 Feb 2026 
+16:28:13 GMT; Path=/, AWSA
+LBCORS=gp9O1hARQfgyZqOx+Ww
+yJcxF6WxtqcWi9w1A/F80f1/6D
+gIjaB87ACWfDRx7WXVs+kkm/lD
+I3xS6fROQMtsWF8HWUq9t+chsE
+k1bse+8uu7VfjX7q62D+tYFhif
+R; Expires=Sun, 15 Feb 
+2026 16:28:13 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'ce33b33bb48431b26a561782c
+4791d27', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:28:13 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=vXom
+CKpveZ0AqTBnxOT5koweWEoiWB
+ufBIjRB5mbkYOsCLePQNZ6M00n
+uK3SyOzn2A9UPYlJW8jBWArDrx
+jvHLDsDy2wQTell/CLiauSYOgs
+onejs2CQ16mKHrwk; 
+Expires=Sun, 15 Feb 2026 
+16:28:13 GMT; Path=/, AWSA
+LBCORS=vXomCKpveZ0AqTBnxOT
+5koweWEoiWBufBIjRB5mbkYOsC
+LePQNZ6M00nuK3SyOzn2A9UPYl
+JW8jBWArDrxjvHLDsDy2wQTell
+/CLiauSYOgsonejs2CQ16mKHrw
+k; Expires=Sun, 15 Feb 
+2026 16:28:13 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'a1727084ec37f44bab7fe3c00
+affb9f9', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 818bdca3-0f
+28-4834-84dd-75007d1c4a07.
+')
+DEBUG: Classified Intent -> WEB_SEARCH
+INFO:     127.0.0.1:60464 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:28:17 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=hWYG
+VOO3ILWtySUXplpNyiYAcMjlqs
++rDM0UqKawcNmkBR+zm7KBTO0Q
+q6+Z1qTWFkSrvyyl4qD0pei6sm
+HfMgcjGxxTw61FF+IT4r8yOM5K
+DsbngOoK+yCjar+y; 
+Expires=Sun, 15 Feb 2026 
+16:28:17 GMT; Path=/, AWSA
+LBCORS=hWYGVOO3ILWtySUXplp
+NyiYAcMjlqs+rDM0UqKawcNmkB
+R+zm7KBTO0Qq6+Z1qTWFkSrvyy
+l4qD0pei6smHfMgcjGxxTw61FF
++IT4r8yOM5KDsbngOoK+yCjar+
+y; Expires=Sun, 15 Feb 
+2026 16:28:17 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'bc2dca767116c8940029badc8
+1005b4c', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+16:28:17 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=fV3I
+pqOFIoJcJoqGVvAAHZWHWvj1Ka
+Sm0Gj8XGeGhYA90ZvdATbOzELf
+0IImrm2thMvxDXq2Z2X13bVK5r
+qywefi5+1ZQPfTnvww9QiphUZG
+sLcjgZXvBjiDvl7F; 
+Expires=Sun, 15 Feb 2026 
+16:28:17 GMT; Path=/, AWSA
+LBCORS=fV3IpqOFIoJcJoqGVvA
+AHZWHWvj1KaSm0Gj8XGeGhYA90
+ZvdATbOzELf0IImrm2thMvxDXq
+2Z2X13bVK5rqywefi5+1ZQPfTn
+vww9QiphUZGsLcjgZXvBjiDvl7
+F; Expires=Sun, 15 Feb 
+2026 16:28:17 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'ba1ba0975752ff2181e771387
+e634ecf', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 5ac40b3d-21
+07-4970-b568-b282672ca68c.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID e01a7124-a4
+6d-49fc-b5ea-19359cb8cd0d.
+')
+DEBUG: Classified Intent -> GREETING
+INFO:     127.0.0.1:64960 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:14:28 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=2Iu4
+nWoKamVCLGbdTl+WiWWaEoW9rB
+G/80IRdsc2DKupPNevAdeNo+vz
+pLhvfpTU0t1xz4uQbzNs1BxkHE
+jnzC9XvRYVsYEi9/QNAxhxW8jc
+ldCqILqqFUVqZprq; 
+Expires=Sun, 15 Feb 2026 
+17:14:28 GMT; Path=/, AWSA
+LBCORS=2Iu4nWoKamVCLGbdTl+
+WiWWaEoW9rBG/80IRdsc2DKupP
+NevAdeNo+vzpLhvfpTU0t1xz4u
+QbzNs1BxkHEjnzC9XvRYVsYEi9
+/QNAxhxW8jcldCqILqqFUVqZpr
+q; Expires=Sun, 15 Feb 
+2026 17:14:28 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'abec2801a81e901c6faaca237
+2b9d32b', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:14:28 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=tL8A
+btEjZtSoWCMQdghttYrke/Y0Fm
+FFdEJ/JC7qBk9ePwt5CYte62id
+Fyc1KMIhqyEUp8Q3EFGRL6XiiP
+X4bXKQ6K6MfkwLzJUPAR+5S2G9
+1iSDeZJNcQgGYHPs; 
+Expires=Sun, 15 Feb 2026 
+17:14:28 GMT; Path=/, AWSA
+LBCORS=tL8AbtEjZtSoWCMQdgh
+ttYrke/Y0FmFFdEJ/JC7qBk9eP
+wt5CYte62idFyc1KMIhqyEUp8Q
+3EFGRL6XiiPX4bXKQ6K6MfkwLz
+JUPAR+5S2G91iSDeZJNcQgGYHP
+s; Expires=Sun, 15 Feb 
+2026 17:14:28 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'601be331e1aa3241fcc0da50a
+5846bc2', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:14:28 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=8djX
+UahZ3Al8lccJFX1EPFEq5DXzPo
+GDjBjU64dC2q+V0XAByC+p8k06
+O68EkjYqm+zbjQ4Xg3VIZqX2E9
+DjdPTzQCm3uz+C1vQYNJ+vD13h
+5Zp+ftCJBUGHmzFJ; 
+Expires=Sun, 15 Feb 2026 
+17:14:28 GMT; Path=/, AWSA
+LBCORS=8djXUahZ3Al8lccJFX1
+EPFEq5DXzPoGDjBjU64dC2q+V0
+XAByC+p8k06O68EkjYqm+zbjQ4
+Xg3VIZqX2E9DjdPTzQCm3uz+C1
+vQYNJ+vD13h5Zp+ftCJBUGHmzF
+J; Expires=Sun, 15 Feb 
+2026 17:14:28 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'044c49fa3fd71b3cb32bfbdf5
+780f8fa', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:14:29 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=BuFf
+Ethd/0jngx5hfEKZHFR5PLpQbY
+PYx71iN/AWdCuOJEA5D4ztUXk8
+IN+jlS+ONjZX06ZvJLfyKXFaXC
+j+G/s/C8sEFEjjk42phatlwroZ
+W06atCcBobIle0f9; 
+Expires=Sun, 15 Feb 2026 
+17:14:29 GMT; Path=/, AWSA
+LBCORS=BuFfEthd/0jngx5hfEK
+ZHFR5PLpQbYPYx71iN/AWdCuOJ
+EA5D4ztUXk8IN+jlS+ONjZX06Z
+vJLfyKXFaXCj+G/s/C8sEFEjjk
+42phatlwroZW06atCcBobIle0f
+9; Expires=Sun, 15 Feb 
+2026 17:14:29 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'8dd134d4ad4986787c8511d2a
+926c09e', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID c12b4851-e9
+c3-4f08-8b4b-62fd2622d0ee.
+')
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:15:34 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=3xv9
+zZwTji0+Igj7naz8s6JuLc2yDj
+6MwrVQHMzB44tJPEoSq+FXVmQx
+QXTasPPdqLiym0tPRQ6UJHqoLy
+qNnTtj0y61sfjqMQO0Gy/38Q7K
+JhEinJqPS4IzCsxv; 
+Expires=Sun, 15 Feb 2026 
+17:15:34 GMT; Path=/, AWSA
+LBCORS=3xv9zZwTji0+Igj7naz
+8s6JuLc2yDj6MwrVQHMzB44tJP
+EoSq+FXVmQxQXTasPPdqLiym0t
+PRQ6UJHqoLyqNnTtj0y61sfjqM
+QO0Gy/38Q7KJhEinJqPS4IzCsx
+v; Expires=Sun, 15 Feb 
+2026 17:15:34 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'eb28a7f55c53bdd6f324fe482
+12e1213', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:15:34 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=wuGw
+LvBoMHoBXELfQ1v19v2ZRrhndC
+zgZwoBrBowrxnXBW1RlJcR0NjL
+fC6TerxiO0zhfYkoDAKvgyT9mk
+BcYVSkw6T2soJHxv9Ft/cJnFZf
+OTg959UjHCja0LDt; 
+Expires=Sun, 15 Feb 2026 
+17:15:34 GMT; Path=/, AWSA
+LBCORS=wuGwLvBoMHoBXELfQ1v
+19v2ZRrhndCzgZwoBrBowrxnXB
+W1RlJcR0NjLfC6TerxiO0zhfYk
+oDAKvgyT9mkBcYVSkw6T2soJHx
+v9Ft/cJnFZfOTg959UjHCja0LD
+t; Expires=Sun, 15 Feb 
+2026 17:15:34 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'b2f66502e2d16536c160bc923
+bcf48b8', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:15:35 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=mP6p
+5nSji0CK3CGFgLf5uDpXVPU6Yi
+sxoULTiYbdik7UePCDllyKJZL4
+VwSx7lX+/cJVXO1tkOIIJ+JNw0
++bgARi4ptrGQStXgj4V3oQkXVb
+Y2mXDhR6h3ALc4mY; 
+Expires=Sun, 15 Feb 2026 
+17:15:35 GMT; Path=/, AWSA
+LBCORS=mP6p5nSji0CK3CGFgLf
+5uDpXVPU6YisxoULTiYbdik7Ue
+PCDllyKJZL4VwSx7lX+/cJVXO1
+tkOIIJ+JNw0+bgARi4ptrGQStX
+gj4V3oQkXVbY2mXDhR6h3ALc4m
+Y; Expires=Sun, 15 Feb 
+2026 17:15:35 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'819fc4a39c3fb6134030774b6
+469dae6', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID b672a140-76
+e2-46d2-8a3c-cca5ed620842.
+')
+DEBUG: Classified Intent -> WEB_SEARCH
+INFO:     127.0.0.1:59061 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:15:39 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=cHoV
+qi4+GDEZfiOmfjjfVSVLWYAEZN
++E0JXsO3ZOLVgeNbS/0eaAgCGe
+3aioUCmDMTQ+TaeAczwbeYB4mE
+2WEhs6xj9KhVJWYdFWNGeMtVDU
+zMy+AG5B2gwGssOT; 
+Expires=Sun, 15 Feb 2026 
+17:15:39 GMT; Path=/, AWSA
+LBCORS=cHoVqi4+GDEZfiOmfjj
+fVSVLWYAEZN+E0JXsO3ZOLVgeN
+bS/0eaAgCGe3aioUCmDMTQ+Tae
+AczwbeYB4mE2WEhs6xj9KhVJWY
+dFWNGeMtVDUzMy+AG5B2gwGssO
+T; Expires=Sun, 15 Feb 
+2026 17:15:39 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'7864cc2cbe3a3a66cdb05da8b
+33bcda7', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:15:39 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=B+qX
+drne/WDMeRb59ymddzr88VRw0C
+zKcnxwGFmtk7fN8ulA4y84G0wR
+g4KS+6nvmes2U2durrjHdc8lUm
+i4FMEz0AjTgi5CuDAP2x9ygjuZ
+yzOUGjDCO7SwrwKW; 
+Expires=Sun, 15 Feb 2026 
+17:15:39 GMT; Path=/, AWSA
+LBCORS=B+qXdrne/WDMeRb59ym
+ddzr88VRw0CzKcnxwGFmtk7fN8
+ulA4y84G0wRg4KS+6nvmes2U2d
+urrjHdc8lUmi4FMEz0AjTgi5Cu
+DAP2x9ygjuZyzOUGjDCO7SwrwK
+W; Expires=Sun, 15 Feb 
+2026 17:15:39 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'5be87fc7db65f4db3bb90df0c
+55af317', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Error ingesting documents: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+INFO:     127.0.0.1:53479 - "POST /upload HTTP/1.1" 200 OK
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Number of requested 
+results 5 is greater than 
+number of elements in 
+index 3, updating 
+n_results = 3
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 1a428b20-c3
+08-4981-9f1b-cae0f9a8a372.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 2c6e04db-77
+e3-4437-825e-d67889614311.
+')
+DEBUG: Classified Intent -> POLICY_COMPARISON
+INFO:     127.0.0.1:52748 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:32:37 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=mnsF
+u0dzjN4fphBBT7PdCNvXnmIpRp
+ifnV6SfWeTZ9+wcA5mmVVZjIBU
+3d2QWYYynb25ZtJrNiwI1md0U1
+grB9fkXgj/6PZQ0FdV8goAl6V8
+451LVAz/zc3qoNl9; 
+Expires=Sun, 15 Feb 2026 
+17:32:37 GMT; Path=/, AWSA
+LBCORS=mnsFu0dzjN4fphBBT7P
+dCNvXnmIpRpifnV6SfWeTZ9+wc
+A5mmVVZjIBU3d2QWYYynb25ZtJ
+rNiwI1md0U1grB9fkXgj/6PZQ0
+FdV8goAl6V8451LVAz/zc3qoNl
+9; Expires=Sun, 15 Feb 
+2026 17:32:37 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'b6c1cc7ac883a4833cd87cbbc
+580345e', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:32:37 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=UK5j
+RF3+ecaA0j21sZ5ueFSGjen40o
+x6Bd0F+1Y7OAA/oVJKosrw67Rf
+/k+njCugvby4Ket6b+5e18Rxvb
+jY4/hI/aUXapKZKkv3MUmjBywS
+r6pYuRy4FEXZJVNI; 
+Expires=Sun, 15 Feb 2026 
+17:32:37 GMT; Path=/, AWSA
+LBCORS=UK5jRF3+ecaA0j21sZ5
+ueFSGjen40ox6Bd0F+1Y7OAA/o
+VJKosrw67Rf/k+njCugvby4Ket
+6b+5e18RxvbjY4/hI/aUXapKZK
+kv3MUmjBywSr6pYuRy4FEXZJVN
+I; Expires=Sun, 15 Feb 
+2026 17:32:37 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'61c17b53ea1357fb9c37a2f7e
+e75570c', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:32:38 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=CxNg
+8NtbLEwdvX6a2oVAPcOC+6fJik
+xmAJy/d8o36i7fNePVm/2hIf1S
+O6j3m9Xk5TFqsjuT/ZVGVA0Qd/
+73PZ1TocsB0SAMupk63u2OXNvr
+fTlvc90mUvpMhfds; 
+Expires=Sun, 15 Feb 2026 
+17:32:38 GMT; Path=/, AWSA
+LBCORS=CxNg8NtbLEwdvX6a2oV
+APcOC+6fJikxmAJy/d8o36i7fN
+ePVm/2hIf1SO6j3m9Xk5TFqsju
+T/ZVGVA0Qd/73PZ1TocsB0SAMu
+pk63u2OXNvrfTlvc90mUvpMhfd
+s; Expires=Sun, 15 Feb 
+2026 17:32:38 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'6d3831eeeeb5340342481fe1c
+ad371bf', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:32:40 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=dsaa
+GIm5DifKPot7npbmSl4tEE1J8B
+mIQA8CxVSBUEWTFvWcZ9WE9Wxm
+S3WvCaXjgu70SV+N/e/NDNaHoI
+w/I/aG1gJCR2LXlCkl2WX+RlVF
+jXulQue14FI4Kd81; 
+Expires=Sun, 15 Feb 2026 
+17:32:40 GMT; Path=/, AWSA
+LBCORS=dsaaGIm5DifKPot7npb
+mSl4tEE1J8BmIQA8CxVSBUEWTF
+vWcZ9WE9WxmS3WvCaXjgu70SV+
+N/e/NDNaHoIw/I/aG1gJCR2LXl
+Ckl2WX+RlVFjXulQue14FI4Kd8
+1; Expires=Sun, 15 Feb 
+2026 17:32:40 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'9e79db1fb3ce6cfc535e8741a
+c107648', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Number of requested 
+results 5 is greater than 
+number of elements in 
+index 3, updating 
+n_results = 3
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID f1a75786-da
+fb-4739-90eb-b68dd1b642d3.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID c2d3edba-6b
+8a-474f-8cad-b982d71936c7.
+')
+DEBUG: Classified Intent -> POLICY_ANALYSIS
+INFO:     127.0.0.1:64608 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:33:09 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=UgiA
+UP2XeezeiNL/d+Mk8UkUs0pL2m
+PRp3ZeljW3At/0BDB9i6lJi0Kv
+9r1ERFmyCFntSXHSmBG3zEkiix
+8hxQmiy92yH+pZWTvyQDq8gXgY
+dewbKSQ8exiLa+IN; 
+Expires=Sun, 15 Feb 2026 
+17:33:09 GMT; Path=/, AWSA
+LBCORS=UgiAUP2XeezeiNL/d+M
+k8UkUs0pL2mPRp3ZeljW3At/0B
+DB9i6lJi0Kv9r1ERFmyCFntSXH
+SmBG3zEkiix8hxQmiy92yH+pZW
+TvyQDq8gXgYdewbKSQ8exiLa+I
+N; Expires=Sun, 15 Feb 
+2026 17:33:09 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'9e476aa3e9880e45422be3c79
+91cc193', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:33:09 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=3ONw
+WTgn8RWMKnT6NZ+inbpjgsA25/
+4+mVET0D/GB02K69Jwap/oSEEY
+GysHvw7cR2AyBoCTkLVNCV7g6m
+a6wLwX874SOqhzng0vqee/1Gnq
+5PoE4MbnpbnNwSMg; 
+Expires=Sun, 15 Feb 2026 
+17:33:09 GMT; Path=/, AWSA
+LBCORS=3ONwWTgn8RWMKnT6NZ+
+inbpjgsA25/4+mVET0D/GB02K6
+9Jwap/oSEEYGysHvw7cR2AyBoC
+TkLVNCV7g6ma6wLwX874SOqhzn
+g0vqee/1Gnq5PoE4MbnpbnNwSM
+g; Expires=Sun, 15 Feb 
+2026 17:33:09 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'7dc2675a4e98c00d5545bccaf
+435bd64', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:33:10 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=T1gB
+IfIw4VUX0qV/62H1dDpTPAzyf0
+XlW77oN2WHObku0k09I+P3/ftK
+JGpf4tS8z30FIP5fAVxH+8/yrd
+HmeOTY538IB+02iuP/HWhhCncK
+9sP18yfmPckliHBw; 
+Expires=Sun, 15 Feb 2026 
+17:33:10 GMT; Path=/, AWSA
+LBCORS=T1gBIfIw4VUX0qV/62H
+1dDpTPAzyf0XlW77oN2WHObku0
+k09I+P3/ftKJGpf4tS8z30FIP5
+fAVxH+8/yrdHmeOTY538IB+02i
+uP/HWhhCncK9sP18yfmPckliHB
+w; Expires=Sun, 15 Feb 
+2026 17:33:10 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'bfde8dc14f7b787f9ce346663
+b4e2089', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:33:10 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=FU8a
+OK/9ruWAVbLE2b82e9rnUMdPCj
+i9j+Dl+PDerhkOdSo/4AcenqdH
+r5WUUcufdzOt2tPIQeZ4MDL2x7
+FQvo/e0ZstIWONneSQofBFxPrs
+RsApr7ObGIQw0KdO; 
+Expires=Sun, 15 Feb 2026 
+17:33:10 GMT; Path=/, AWSA
+LBCORS=FU8aOK/9ruWAVbLE2b8
+2e9rnUMdPCji9j+Dl+PDerhkOd
+So/4AcenqdHr5WUUcufdzOt2tP
+IQeZ4MDL2x7FQvo/e0ZstIWONn
+eSQofBFxPrsRsApr7ObGIQw0Kd
+O; Expires=Sun, 15 Feb 
+2026 17:33:10 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'c8159bf0922203bfe17bba5b5
+310803f', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Number of requested 
+results 5 is greater than 
+number of elements in 
+index 3, updating 
+n_results = 3
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID d1e67458-6c
+80-4074-89c8-01c0bee1d3a3.
+')
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:33:30 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=krjv
+ANBBntoKZ9QwYLlIWWGyIuCqCP
+AN2izmMkQleEgtiCpjyZkXYBL3
+6vwy7Sw36Wd4WFDhEVjfnQ/Vtn
+0kxnyeL4IGuD139l2QigEYbljr
+ROwT++KM3dRrJZK8; 
+Expires=Sun, 15 Feb 2026 
+17:33:30 GMT; Path=/, AWSA
+LBCORS=krjvANBBntoKZ9QwYLl
+IWWGyIuCqCPAN2izmMkQleEgti
+CpjyZkXYBL36vwy7Sw36Wd4WFD
+hEVjfnQ/Vtn0kxnyeL4IGuD139
+l2QigEYbljrROwT++KM3dRrJZK
+8; Expires=Sun, 15 Feb 
+2026 17:33:30 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'83daa80d1705a9d096b71d619
+fbabc5d', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:33:30 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=c4OL
+zOKdiTvEialJ6SC8fAQvOL9TDf
+yqLHAi2dnNCJu5wsVY2niE4gIO
+nrkRWHptkAdbAtvU/9UxBTuj1G
+MYsXBhh6n2Ns6z+SPxbNJEBjYu
+kGYB9zlBYDc91qMc; 
+Expires=Sun, 15 Feb 2026 
+17:33:30 GMT; Path=/, AWSA
+LBCORS=c4OLzOKdiTvEialJ6SC
+8fAQvOL9TDfyqLHAi2dnNCJu5w
+sVY2niE4gIOnrkRWHptkAdbAtv
+U/9UxBTuj1GMYsXBhh6n2Ns6z+
+SPxbNJEBjYukGYB9zlBYDc91qM
+c; Expires=Sun, 15 Feb 
+2026 17:33:30 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'e086876768f9b8c748a78708f
+63bbf73', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:33:32 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=QQZZ
+jCZf+sBp/kd2A0eHwISKnMAHvc
+KCsF24rk6Ztu5kwUjv8gUBHhjj
+ycyPODE2BRYZCJnSPBRLBQ3Sr/
+cXD1+0Xpx9UrZMAoan2uHVjq1X
+i18JvuwuxT3w19DX; 
+Expires=Sun, 15 Feb 2026 
+17:33:32 GMT; Path=/, AWSA
+LBCORS=QQZZjCZf+sBp/kd2A0e
+HwISKnMAHvcKCsF24rk6Ztu5kw
+Ujv8gUBHhjjycyPODE2BRYZCJn
+SPBRLBQ3Sr/cXD1+0Xpx9UrZMA
+oan2uHVjq1Xi18JvuwuxT3w19D
+X; Expires=Sun, 15 Feb 
+2026 17:33:32 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'b0271cd3a3aac657e40676c19
+28ab8c2', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 3d69acaa-70
+e8-4aa2-af0f-86eed99ccc1b.
+')
+DEBUG: Classified Intent -> WEB_SEARCH
+INFO:     127.0.0.1:58573 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:33:36 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=SYjA
+/GTPdCmo53GCAxKt/3rKdI5YLR
+je60/hcukNEpnCCrT5WVb0wlxs
+ZBvvkGHzr5om9ypwr+L+cKKsZR
+sgehIV1p8PBkc71oo+P15sEKab
+Pph+to4yIEcW1Pg7; 
+Expires=Sun, 15 Feb 2026 
+17:33:36 GMT; Path=/, AWSA
+LBCORS=SYjA/GTPdCmo53GCAxK
+t/3rKdI5YLRje60/hcukNEpnCC
+rT5WVb0wlxsZBvvkGHzr5om9yp
+wr+L+cKKsZRsgehIV1p8PBkc71
+oo+P15sEKabPph+to4yIEcW1Pg
+7; Expires=Sun, 15 Feb 
+2026 17:33:36 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'c1e2cd83269bdf1d5261a920a
+e38799a', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:33:36 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=grnM
+KsAEqPI81U3a3rIkJoqXpyQLOt
+6uuJg1iqgMqvzgjSDUx/cP93rW
+ED7ZbvKyu59T8yYMXrXF2ZLVMz
+DTB3Fxdbb6vin2RLqKbKOqQh4Q
+1ZKyerk7Kmt/CX92; 
+Expires=Sun, 15 Feb 2026 
+17:33:36 GMT; Path=/, AWSA
+LBCORS=grnMKsAEqPI81U3a3rI
+kJoqXpyQLOt6uuJg1iqgMqvzgj
+SDUx/cP93rWED7ZbvKyu59T8yY
+MXrXF2ZLVMzDTB3Fxdbb6vin2R
+LqKbKOqQh4Q1ZKyerk7Kmt/CX9
+2; Expires=Sun, 15 Feb 
+2026 17:33:36 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'52341ccd354314917dd84a485
+77c9a0b', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Number of requested 
+results 5 is greater than 
+number of elements in 
+index 3, updating 
+n_results = 3
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 8b61cc68-f2
+0d-4779-b217-f49447422fcf.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 9f1a1c31-d4
+34-4f99-a1d8-ecfd772ded7b.
+')
+DEBUG: Classified Intent -> POLICY_ANALYSIS
+INFO:     127.0.0.1:60249 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:34:27 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=2KO1
+k267ErThCsk+ZhIxTpzQ9HFZVq
+Qygx6z6OG36v9GAyH3Jl+E1A3m
+mwzCt+tuz8XVQV8jPiGEA1P0Oc
+LvVBti3rQwkkFtUL+2iMP29Mnl
+66y4YeL3ML0k5nTN; 
+Expires=Sun, 15 Feb 2026 
+17:34:27 GMT; Path=/, AWSA
+LBCORS=2KO1k267ErThCsk+ZhI
+xTpzQ9HFZVqQygx6z6OG36v9GA
+yH3Jl+E1A3mmwzCt+tuz8XVQV8
+jPiGEA1P0OcLvVBti3rQwkkFtU
+L+2iMP29Mnl66y4YeL3ML0k5nT
+N; Expires=Sun, 15 Feb 
+2026 17:34:27 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'3a22ac0895e98f3a1cab77c02
+3238be3', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:34:27 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=aIYt
+YngLRPQM0HKFCiIyDWoyJhR+3F
+8/DQtt4CS0VV8D0ubqo3W4ih6X
+xsHcvkJS8dFIC4boIwyiyollRA
+KZSYDB2D1HseKVGAtWLZ8ODAX3
+TGVq0djv2HzmAmd/; 
+Expires=Sun, 15 Feb 2026 
+17:34:27 GMT; Path=/, AWSA
+LBCORS=aIYtYngLRPQM0HKFCiI
+yDWoyJhR+3F8/DQtt4CS0VV8D0
+ubqo3W4ih6XxsHcvkJS8dFIC4b
+oIwyiyollRAKZSYDB2D1HseKVG
+AtWLZ8ODAX3TGVq0djv2HzmAmd
+/; Expires=Sun, 15 Feb 
+2026 17:34:27 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'505487a4088133e2ad870fd22
+8d56952', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:34:31 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=Ie11
+uH8JLEWn0JL/idDmY38Vqszjpl
+InE3zj/OmN5sk0rMvVEukIKS/j
+BTQo9ZCWJIvafHuBm70b4rasD+
+1xuSjP2auWWpzV6mmB2XtPe6Tv
+GaL6uVaMGd4tgwzu; 
+Expires=Sun, 15 Feb 2026 
+17:34:31 GMT; Path=/, AWSA
+LBCORS=Ie11uH8JLEWn0JL/idD
+mY38VqszjplInE3zj/OmN5sk0r
+MvVEukIKS/jBTQo9ZCWJIvafHu
+Bm70b4rasD+1xuSjP2auWWpzV6
+mmB2XtPe6TvGaL6uVaMGd4tgwz
+u; Expires=Sun, 15 Feb 
+2026 17:34:31 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'f57ef4f3231140016da251aa7
+abc482e', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:34:31 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=i912
+yp9aj4gNcR9NasIbC0E75DZWdp
+ss/A0tdFH4/idz9NZvtCJvu+es
+mHJ2dXwGfy8aSdeXFDwF8X980e
+Z78Hk7wdUnaIif1gAXFCqyjuM8
+kGeJl4UwEFWhF2xW; 
+Expires=Sun, 15 Feb 2026 
+17:34:31 GMT; Path=/, AWSA
+LBCORS=i912yp9aj4gNcR9NasI
+bC0E75DZWdpss/A0tdFH4/idz9
+NZvtCJvu+esmHJ2dXwGfy8aSde
+XFDwF8X980eZ78Hk7wdUnaIif1
+gAXFCqyjuM8kGeJl4UwEFWhF2x
+W; Expires=Sun, 15 Feb 
+2026 17:34:31 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'0cc64b62166000ec7f44e6560
+a1f9c70', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Number of requested 
+results 5 is greater than 
+number of elements in 
+index 3, updating 
+n_results = 3
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID d64563ac-3f
+1f-4150-af5e-724ffc3ecaf2.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:34:57 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=NXJ4
+PkTDerh8SU8NE1obv5FLWy0hJF
+MmSkFtHuK8y9jqVZAlxg5RcxJ4
+Gmtth2bf2PuHmCxHkx2Ll3K3zJ
+0tEUV9dIvyC7LwKptvLVA4njpF
+Agyako4NTlCDb3/K; 
+Expires=Sun, 15 Feb 2026 
+17:34:57 GMT; Path=/, AWSA
+LBCORS=NXJ4PkTDerh8SU8NE1o
+bv5FLWy0hJFMmSkFtHuK8y9jqV
+ZAlxg5RcxJ4Gmtth2bf2PuHmCx
+Hkx2Ll3K3zJ0tEUV9dIvyC7LwK
+ptvLVA4njpFAgyako4NTlCDb3/
+K; Expires=Sun, 15 Feb 
+2026 17:34:57 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'550b94c92cc5bcb95ccae70dc
+a88cb81', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 5c22f681-8b
+a1-4851-8881-98a6da2f8f99.
+')
+DEBUG: Classified Intent -> POLICY_ANALYSIS
+INFO:     127.0.0.1:51726 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:34:59 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=ifNw
+T2AKluGmAAsEt3/rKwNu7kYvIE
+dhfBZfpSF+KNKj8iu7NeWVVh0d
+iVU7DTagj8ombEaj+7TOd0QKFw
+PHmK1SJJTM4G+XBrfhh18Cm05Q
+Cfgg3HrCa+cWpYUv; 
+Expires=Sun, 15 Feb 2026 
+17:34:59 GMT; Path=/, AWSA
+LBCORS=ifNwT2AKluGmAAsEt3/
+rKwNu7kYvIEdhfBZfpSF+KNKj8
+iu7NeWVVh0diVU7DTagj8ombEa
+j+7TOd0QKFwPHmK1SJJTM4G+XB
+rfhh18Cm05QCfgg3HrCa+cWpYU
+v; Expires=Sun, 15 Feb 
+2026 17:34:59 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'de042c735f62e9089c5446b91
+b256205', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:35:01 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=xje8
+3Xim+rfSIEBxMIIHsKREHsGdrm
+dponNoYauS0ocOQQWzRbGD3q+U
+hSeKEcSWz2dFWtw4QsHG0JnYs5
+L16xASGT1Al3g6D63fMNhtJXfP
+4kekx4gsDR2/Ob2h; 
+Expires=Sun, 15 Feb 2026 
+17:35:01 GMT; Path=/, AWSA
+LBCORS=xje83Xim+rfSIEBxMII
+HsKREHsGdrmdponNoYauS0ocOQ
+QWzRbGD3q+UhSeKEcSWz2dFWtw
+4QsHG0JnYs5L16xASGT1Al3g6D
+63fMNhtJXfP4kekx4gsDR2/Ob2
+h; Expires=Sun, 15 Feb 
+2026 17:35:01 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'928f75a1526a62036143559b9
+0b11a34', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Number of requested 
+results 5 is greater than 
+number of elements in 
+index 3, updating 
+n_results = 3
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 4ede9c5b-e2
+c9-4506-bc15-a3a288bbd80d.
+')
+DEBUG: Classified Intent -> OFF_TOPIC
+INFO:     127.0.0.1:62681 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:35:09 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=8xUH
+g91prDzRFDdxC2ikbvA9RYallO
+42qyS4XthZrPlROwij0Pk/P3Mv
+uXiKQ4ObQel2ETi4/37MQnmoEg
+N2hUMY1ndQWj5NBwsN+yVI7ryC
+AdhMHOky/Dcryxwd; 
+Expires=Sun, 15 Feb 2026 
+17:35:09 GMT; Path=/, AWSA
+LBCORS=8xUHg91prDzRFDdxC2i
+kbvA9RYallO42qyS4XthZrPlRO
+wij0Pk/P3MvuXiKQ4ObQel2ETi
+4/37MQnmoEgN2hUMY1ndQWj5NB
+wsN+yVI7ryCAdhMHOky/Dcryxw
+d; Expires=Sun, 15 Feb 
+2026 17:35:09 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'74f5ba6b92c355e65fecbf8c5
+145e7db', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:35:09 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=I65K
+HR7Nfpse2L5jFPPdhYZyxSFTPm
+u9jNeV/5ifEh85EgvM/cW3x6je
+RTql4CI7WEoHHKwsq7ubzfV9fw
+503RWOE9JP0+6f64RAnn55Hhpb
+K9QFy4YUz/b2JE5h; 
+Expires=Sun, 15 Feb 2026 
+17:35:09 GMT; Path=/, AWSA
+LBCORS=I65KHR7Nfpse2L5jFPP
+dhYZyxSFTPmu9jNeV/5ifEh85E
+gvM/cW3x6jeRTql4CI7WEoHHKw
+sq7ubzfV9fw503RWOE9JP0+6f6
+4RAnn55HhpbK9QFy4YUz/b2JE5
+h; Expires=Sun, 15 Feb 
+2026 17:35:09 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'fc872aa284fe8cb597e832fec
+b96b534', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Sun, 08 Feb 2026 
+17:35:11 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=6OFr
+ewQZyy11KaNGHKcqh5HdA2y1ME
+BCX9Pr+oH5rSfaigE4iwQ6CKBl
+i6W15i24TTZbAzcIZofTrsHahn
+CzBsSosNZEoHtISG82aQV2RY05
+3nQjxUvnwui8/+9Z; 
+Expires=Sun, 15 Feb 2026 
+17:35:11 GMT; Path=/, AWSA
+LBCORS=6OFrewQZyy11KaNGHKc
+qh5HdA2y1MEBCX9Pr+oH5rSfai
+gE4iwQ6CKBli6W15i24TTZbAzc
+IZofTrsHahnCzBsSosNZEoHtIS
+G82aQV2RY053nQjxUvnwui8/+9
+Z; Expires=Sun, 15 Feb 
+2026 17:35:11 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'470da3bc84fd48d42d34d0482
+dc72e36', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Number of requested 
+results 5 is greater than 
+number of elements in 
+index 3, updating 
+n_results = 3
+Failed to send telemetry 
+event ClientStartEvent: 
+capture() takes 1 
+positional argument but 3 
+were given
+Failed to send telemetry 
+event ClientCreateCollecti
+onEvent: capture() takes 
+1 positional argument but 
+3 were given
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'HumanMessag
+e' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 74d096df-65
+ff-4945-8d7d-94383f180f6e.
+')
+Error in OpikTracer.on_cha
+t_model_start callback: At
+tributeError("'SystemMessa
+ge' object has no 
+attribute 'model_dump'")
+Error in 
+OpikTracer.on_llm_end 
+callback: 
+TracerException('No 
+indexed run ID 5d9fa2ac-45
+29-41e8-a21d-e120f7954070.
+')
+DEBUG: Classified Intent -> GREETING
+INFO:     127.0.0.1:64930 - "POST /chat HTTP/1.1" 200 OK
+OPIK: Failed to process 
+CreateSpansBatchMessage. 
+Error: headers: {'date': 
+'Mon, 09 Feb 2026 
+05:32:14 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=h5zl
+yh2M+o/RqgfYilXydkdz8MZfv0
+JHRR3jX02dc3rXaZ2gbWy4QP6s
+cFhNvoWm1Wu8oWRnAgSiDwgkke
+lBNGGlZJj02YsgWJGUBCNNAzxc
+CWJyZJaERf0XIO7m; 
+Expires=Mon, 16 Feb 2026 
+05:32:14 GMT; Path=/, AWSA
+LBCORS=h5zlyh2M+o/RqgfYilX
+ydkdz8MZfv0JHRR3jX02dc3rXa
+Z2gbWy4QP6scFhNvoWm1Wu8oWR
+nAgSiDwgkkelBNGGlZJj02YsgW
+JGUBCNNAzxcCWJyZJaERf0XIO7
+m; Expires=Mon, 16 Feb 
+2026 05:32:14 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'e97bc27ff804038337937ae31
+78ec7e6', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}
+OPIK: Failed to process 
+CreateTraceBatchMessage. 
+Error: headers: {'date': 
+'Mon, 09 Feb 2026 
+05:32:14 GMT', 
+'content-type': 
+'application/json', 
+'content-length': '58', 
+'connection': 
+'keep-alive', 
+'set-cookie': 'AWSALB=yoHe
+16MYUJKgNpwOoco7IId+dFt31a
+NtBKYSjacukGnvwN+am1IG/WrQ
+eJwSyLzXcoi/W1Fc++jb9cVjaC
+X//q5JtgBCNTSDIuP/nIVFbRi+
+vkb0K7FKkj5SSM3s; 
+Expires=Mon, 16 Feb 2026 
+05:32:14 GMT; Path=/, AWSA
+LBCORS=yoHe16MYUJKgNpwOoco
+7IId+dFt31aNtBKYSjacukGnvw
+N+am1IG/WrQeJwSyLzXcoi/W1F
+c++jb9cVjaCX//q5JtgBCNTSDI
+uP/nIVFbRi+vkb0K7FKkj5SSM3
+s; Expires=Mon, 16 Feb 
+2026 05:32:14 GMT; 
+Path=/; SameSite=None; 
+Secure', 'server': 
+'nginx', 'vary': 
+'Accept-Encoding', 
+'x-opik-nginx': 
+'frontend', 'x-trace-id': 
+'5ac56622a2b8799370e24e454
+bb4b0e8', 
+'cache-control': 
+'no-cache, 
+must-revalidate', 'content
+-security-policy': 
+"base-uri 'self'; 
+child-src 'self'; 
+connect-src 'self' ws: 
+wss: https:; default-src 
+'self'; font-src 'self' 
+data: https://fonts.gstati
+c.com; form-action 
+'self'; frame-ancestors 
+'none'; img-src 'self' 
+data: blob: https: http:; 
+manifest-src 'self'; 
+media-src 'self' https: 
+http:; object-src 'none'; 
+script-src 'self' 
+'unsafe-inline' 
+'unsafe-eval'; style-src 
+'self' 'unsafe-inline' htt
+ps://fonts.googleapis.com;
+ worker-src 'self' 
+blob:", 'strict-transport-
+security': 
+'max-age=31536000; 
+includeSubDomains; 
+preload', 
+'x-content-type-options': 
+'nosniff', 
+'x-frame-options': 
+'DENY', 
+'x-xss-protection': '0'}, 
+status_code: 403, body: 
+{'code': 403, 'message': 
+'Workspace name should be 
+provided'}

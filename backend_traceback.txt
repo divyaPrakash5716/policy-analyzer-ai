@@ -1,0 +1,68 @@
+﻿python : Traceback (most 
+recent call last):
+At line:1 char:1
++ python -c "import sys; s
+ys.path.append('backend');
+ import main; print ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpe    cified: 
+(Traceba    ck (most 
+recent     call 
+last)::Stri    ng) [], 
+RemoteEx    ception
+    + FullyQualified    
+ErrorId : Native    
+CommandError
+ 
+  File "<string>", line 
+1, in <module>
+  File 
+"C:\Users\divyaprakash k\D
+ownloads\policy-analyzer-a
+i-1\policy-analyzer-ai-1\b
+ackend\main.py", line 8, 
+in <module>
+    from graph import app 
+as graph_app
+  File 
+"C:\Users\divyaprakash k\D
+ownloads\policy-analyzer-a
+i-1\policy-analyzer-ai-1\b
+ackend\graph.py", line 
+14, in <module>
+    llm = ChatGroq(model_n
+ame="llama-3.1-8b-instant"
+, temperature=0)
+  File 
+"C:\Users\divyaprakash k\A
+ppData\Local\Programs\Pyth
+on\Python310\lib\site-pack
+ages\langchain_core\load\s
+erializable.py", line 
+113, in __init__
+    
+super().__init__(*args, 
+**kwargs)
+  File 
+"C:\Users\divyaprakash k\A
+ppData\Local\Programs\Pyth
+on\Python310\lib\site-pack
+ages\pydantic\v1\main.py",
+ line 347, in __init__
+    raise validation_error
+pydantic.v1.error_wrappers
+.ValidationError: 1 
+validation error for 
+ChatGroq
+__root__
+  Did not find 
+groq_api_key, please add 
+an environment variable 
+`GROQ_API_KEY` which 
+contains it, or pass 
+`groq_api_key` as a named 
+parameter. 
+(type=value_error)

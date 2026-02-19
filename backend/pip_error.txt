@@ -1,0 +1,130 @@
+﻿pip : WARNING: 
+Ignoring invalid 
+distribution 
+-angchain (c:\users\d
+ivyaprakash k\appdata
+\local\programs\pytho
+n\python310\lib\site-
+packages)
+At line:1 char:42
++ ...  
+--no-cache-dir 
+*>$null; pip install 
+opik --no-cache-dir 
+2>&1 | Out-F ...
++                    
+          ~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (WARNING   
+ : Ignori...\site    
+-packages):Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+Collecting opik
+  Downloading opik-1.10.8-py3-none-any.whl.metadata (34 kB)
+Collecting boto3-stubs>=1.34.110 (from boto3-stubs[bedrock-runtime]>=1.34.110->opik)
+  Downloading boto3_stubs-1.42.44-py3-none-any.whl.metadata (152 kB)
+Requirement already satisfied: click in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from opik) (8.3.1)
+Requirement already satisfied: httpx in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from opik) (0.28.1)
+Collecting rapidfuzz<4.0.0,>=3.0.0 (from opik)
+  Downloading rapidfuzz-3.14.3-cp310-cp310-win_amd64.whl.metadata (12 kB)
+Collecting litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2 (from opik)
+  Downloading litellm-1.81.9-py3-none-any.whl.metadata (30 kB)
+Collecting openai (from opik)
+  Downloading openai-2.17.0-py3-none-any.whl.metadata (29 kB)
+Requirement already satisfied: pydantic-settings!=2.9.0,<3.0.0,>=2.0.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from opik) (2.12.0)
+Requirement already satisfied: pydantic<3.0.0,>=2.0.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from opik) (2.12.5)
+Collecting pytest (from opik)
+  Downloading pytest-9.0.2-py3-none-any.whl.metadata (7.6 kB)
+Requirement already satisfied: rich in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from opik) (14.2.0)
+Requirement already satisfied: sentry_sdk>=2.0.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from opik) (2.52.0)
+Requirement already satisfied: tenacity in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from opik) (8.5.0)
+Requirement already satisfied: tqdm in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from opik) (4.67.1)
+Requirement already satisfied: uuid6 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from opik) (2025.0.1)
+Requirement already satisfied: jinja2 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from opik) (3.1.3)
+Collecting botocore-stubs (from boto3-stubs>=1.34.110->boto3-stubs[bedrock-runtime]>=1.34.110->opik)
+  Downloading botocore_stubs-1.42.41-py3-none-any.whl.metadata (3.4 kB)
+Requirement already satisfied: types-s3transfer in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from boto3-stubs>=1.34.110->boto3-stubs[bedrock-runtime]>=1.34.110->opik) (0.16.0)
+Requirement already satisfied: typing-extensions>=4.1.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from boto3-stubs>=1.34.110->boto3-stubs[bedrock-runtime]>=1.34.110->opik) (4.15.0)
+Collecting mypy-boto3-bedrock-runtime<1.43.0,>=1.42.0 (from boto3-stubs[bedrock-runtime]>=1.34.110->opik)
+  Downloading mypy_boto3_bedrock_runtime-1.42.42-py3-none-any.whl.metadata (15 kB)
+Requirement already satisfied: aiohttp>=3.10 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (3.13.3)
+Collecting fastuuid>=0.13.0 (from litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik)
+  Downloading fastuuid-0.14.0-cp310-cp310-win_amd64.whl.metadata (1.1 kB)
+Requirement already satisfied: importlib-metadata>=6.8.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (8.7.1)
+Requirement already satisfied: jsonschema<5.0.0,>=4.23.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (4.26.0)
+Requirement already satisfied: python-dotenv>=0.2.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (1.2.1)
+Requirement already satisfied: tiktoken>=0.7.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (0.12.0)
+Requirement already satisfied: tokenizers in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (0.20.3)
+Requirement already satisfied: anyio in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from httpx->opik) (4.12.1)
+Requirement already satisfied: certifi in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from httpx->opik) (2026.1.4)
+Requirement already satisfied: httpcore==1.* in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from httpx->opik) (1.0.9)
+Requirement already satisfied: idna in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from httpx->opik) (3.11)
+Requirement already satisfied: h11>=0.16 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from httpcore==1.*->httpx->opik) (0.16.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from jinja2->opik) (2.1.5)
+Requirement already satisfied: distro<2,>=1.7.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from openai->opik) (1.9.0)
+Collecting jiter<1,>=0.10.0 (from openai->opik)
+  Downloading jiter-0.13.0-cp310-cp310-win_amd64.whl.metadata (5.3 kB)
+Requirement already satisfied: sniffio in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from openai->opik) (1.3.1)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from pydantic<3.0.0,>=2.0.0->opik) (0.7.0)
+Requirement already satisfied: pydantic-core==2.41.5 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from pydantic<3.0.0,>=2.0.0->opik) (2.41.5)
+Requirement already satisfied: typing-inspection>=0.4.2 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from pydantic<3.0.0,>=2.0.0->opik) (0.4.2)
+Requirement already satisfied: urllib3>=1.26.11 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from sentry_sdk>=2.0.0->opik) (2.3.0)
+Requirement already satisfied: colorama in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from tqdm->opik) (0.4.6)
+Requirement already satisfied: exceptiongroup>=1 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from pytest->opik) (1.3.1)
+Collecting iniconfig>=1.0.1 (from pytest->opik)
+  Downloading iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+Requirement already satisfied: packaging>=22 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from pytest->opik) (24.2)
+Collecting pluggy<2,>=1.5 (from pytest->opik)
+  Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+Requirement already satisfied: pygments>=2.7.2 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from pytest->opik) (2.19.2)
+Requirement already satisfied: tomli>=1 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from pytest->opik) (2.3.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from rich->opik) (4.0.0)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from aiohttp>=3.10->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (2.6.1)
+Requirement already satisfied: aiosignal>=1.4.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from aiohttp>=3.10->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (1.4.0)
+Requirement already satisfied: async-timeout<6.0,>=4.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from aiohttp>=3.10->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (4.0.3)
+Requirement already satisfied: attrs>=17.3.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from aiohttp>=3.10->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (25.4.0)
+Requirement already satisfied: frozenlist>=1.1.1 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from aiohttp>=3.10->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (1.8.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from aiohttp>=3.10->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (6.7.0)
+Requirement already satisfied: propcache>=0.2.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from aiohttp>=3.10->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (0.4.1)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from aiohttp>=3.10->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (1.22.0)
+Requirement already satisfied: zipp>=3.20 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from importlib-metadata>=6.8.0->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (3.23.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from jsonschema<5.0.0,>=4.23.0->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (2025.9.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from jsonschema<5.0.0,>=4.23.0->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (0.37.0)
+Requirement already satisfied: rpds-py>=0.25.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from jsonschema<5.0.0,>=4.23.0->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (0.30.0)
+Requirement already satisfied: mdurl~=0.1 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from markdown-it-py>=2.2.0->rich->opik) (0.1.2)
+Requirement already satisfied: regex>=2022.1.18 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from tiktoken>=0.7.0->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (2025.11.3)
+Requirement already satisfied: requests>=2.26.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from tiktoken>=0.7.0->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (2.32.5)
+Requirement already satisfied: types-awscrt in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from botocore-stubs->boto3-stubs>=1.34.110->boto3-stubs[bedrock-runtime]>=1.34.110->opik) (0.31.1)
+Requirement already satisfied: huggingface-hub<1.0,>=0.16.4 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from tokenizers->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (0.36.0)
+Requirement already satisfied: filelock in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from huggingface-hub<1.0,>=0.16.4->tokenizers->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (3.20.2)
+Requirement already satisfied: fsspec>=2023.5.0 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from huggingface-hub<1.0,>=0.16.4->tokenizers->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (2025.12.0)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from huggingface-hub<1.0,>=0.16.4->tokenizers->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (6.0.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\divyaprakash k\appdata\local\programs\python\python310\lib\site-packages (from requests>=2.26.0->tiktoken>=0.7.0->litellm!=1.75.0,!=1.75.1,!=1.75.2,!=1.75.3,!=1.75.4,!=1.75.5,!=1.77.3,!=1.77.4,!=1.77.5,!=1.77.7,!=1.78.0,!=1.78.2,!=1.78.3,!=1.78.4,!=1.78.5,!=1.78.6,!=1.78.7,!=1.79.0,!=1.79.1,>=1.79.2->opik) (3.4.4)
+Downloading opik-1.10.8-py3-none-any.whl (1.2 MB)
+   ---------------------------------------- 1.2/1.2 MB 1.1 MB/s eta 0:00:00
+Downloading boto3_stubs-1.42.44-py3-none-any.whl (69 kB)
+Downloading litellm-1.81.9-py3-none-any.whl (14.4 MB)
+ERROR: Could not 
+install packages due 
+to an OSError: 
+[Errno 28] No space 
+left on device
+
+                                            0.3/14.4 MB ? eta -:--:--
+
+[notice] A new 
+release of pip is 
+available: 24.3.1 -> 
+26.0.1
+[notice] To update, 
+run: python.exe -m 
+pip install 
+--upgrade pip

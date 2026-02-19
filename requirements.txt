@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-groq
+langchain-community
+langchain-huggingface
+chromadb
+sentence-transformers
+rank_bm25
+pypdf
+duckduckgo-search
+faiss-cpu
