@@ -1,5 +1,5 @@
 fastapi
-uvicorn
+uvicorn[standard]
 langchain
 langgraph
 langchain-groq
@@ -17,3 +17,7 @@ numpy<2
 redis
 langgraph-checkpoint-redis
 flashrank
+mlflow>=3.0.0
+pandas
+sentence-transformers
+huggingface_hub

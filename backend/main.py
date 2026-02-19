@@ -18,12 +18,22 @@ from rag import RAGSystem
 from graph import app as graph_app
 import mlflow
 import mlflow.langchain
+import mlflow.metrics.genai as genai_metrics
 
-# Initialize MLflow for observability
-# This provides automated tracing and logging for LangChain/LangGraph
-mlflow.set_tracking_uri("http://localhost:5000")
+# Initialize MLflow - uses MLFLOW_TRACKING_URI env var (DagsHub in prod, localhost in dev)
+mlflow_uri = os.getenv("MLFLOW_TRACKING_URI", "http://localhost:5000")
+mlflow.set_tracking_uri(mlflow_uri)
 mlflow.set_experiment("Policy Analyzer AI")
-mlflow.langchain.autolog()
+
+# DagsHub auth in production
+if os.getenv("DAGSHUB_TOKEN"):
+    os.environ["MLFLOW_TRACKING_USERNAME"] = os.getenv("MLFLOW_TRACKING_USERNAME", "divyaPrakash5716")
+    os.environ["MLFLOW_TRACKING_PASSWORD"] = os.getenv("DAGSHUB_TOKEN")
+
+try:
+    mlflow.langchain.autolog()
+except Exception as e:
+    print(f"MLflow autolog skipped: {e}")
 
 app = FastAPI(
     title="Policy Analyser AI",
