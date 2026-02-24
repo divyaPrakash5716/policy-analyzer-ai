@@ -20,7 +20,7 @@ export default function Home() {
             Policy<span className="text-blue-500 underline decoration-blue-500/30 underline-offset-4">analyzer</span>
           </h1>
           <p className="text-[10px] text-slate-500 font-bold uppercase tracking-[0.2em] mt-2">
-            AI Compliance Engine v2.0
+            AI Compliance Engine 
           </p>
         </div>
 
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         <footer className="absolute bottom-6 text-[10px] text-slate-600 font-medium uppercase tracking-widest">
-          Powered by FastAPI • LangGraph • Next.js
+          © 2026 Policy-Analyzer. All rights reserved
         </footer>
       </div>
     </main>
